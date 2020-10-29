@@ -16,9 +16,19 @@ body{
 }
 
 /* header starts */
-header{
+.header{
   background-color: #000000;
-  padding: 20px 0;
+  padding: 25px 0;
+  transition: .3s ease-in-out;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 999;
 }
 
 .menu ul li a{
@@ -53,3 +63,180 @@ header{
   font-size: 24px;
 }
 /* header ends */
+
+/* hero starts */
+.hero{
+  background: linear-gradient(110deg, white 33%, rgb(129, 86, 252) 33%);
+}
+
+.hero-me img{
+  width: 35%;
+  margin: 20px;
+}
+
+.hero-me{
+  width: 100%;
+  margin-top: 95px;
+}
+
+.hero-me h1{
+  width: 60%;
+  font-size: 24px;
+  background-color: #000000;
+  padding: 20px 0 0 20px;
+  margin-bottom: 0;
+}
+
+.hero-me p{
+  background-color: #000000;
+  word-spacing: 1px;
+  line-height: 20px;
+  padding: 20px;
+  color: #C1C1C1;
+}
+
+.styled_button {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  box-shadow: 8px 8px 0px 1px #8154F7;
+  transition: .3s;
+}
+
+.styled_button:hover {
+  background-color: #E68966;
+  color: black;
+  box-shadow: 8px 8px 0px 1px black;
+  text-decoration: none;
+}
+
+.hero-page .page{
+  width: 100%;
+  margin: 50px 0px;
+}
+
+.hero-page .pen{
+  position: absolute;
+  left: 15%;
+  top: 35%;
+  width: 45%;
+  transform: rotate(-45deg);
+  margin-top: 25%;
+  margin-left: 25%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.hero-page .pen:hover{
+  transform: rotate(-30deg);
+}
+
+
+.rubic{
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+}
+
+
+.hero-page .rubic-purp {
+    max-width: 150px;
+    top: 70px;
+    left: 0px;
+}
+
+.hero-page .rubic-white{
+  max-width: 100px;
+  top: 590px;
+  right: 80px;
+}
+
+.typing{
+  position: absolute;
+  top: 500px;
+  left: 150px;
+  font-size: 20px;
+  color: black;
+}
+/* hero ends */
+
+/* counter starts */
+.counter-sec{
+  background: linear-gradient(90deg, rgb(129, 86, 252) 48%, white 48%);
+}
+
+.counts{
+  padding: 35px;
+}
+
+.count-item{
+  margin-top: 40px;
+  color: #000000;
+}
+
+.count-item p{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.c-white{
+  color: white;
+}
+/* counter ends */
+
+/* what starts */
+.what-can {
+  background: linear-gradient(90deg, rgb(129, 86, 252) 33%, white 33%);
+  color: black;
+  min-height: 550px;
+}
+
+.what-items{
+  margin: 40px 0 0 40px;
+}
+
+.single-icon{
+  margin-top: 40px;
+}
+
+.card_icon{
+  text-align: center;
+  margin-top: 5px;
+}
+
+.card_icon i {
+    color: #8154F7;
+}
+
+.card_text{
+
+}
+
+.float img{
+  position: absolute;
+  width: 200px;
+  height: 180px;
+  top: 100px;
+}
+
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 30px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.shadow img {
+  position: absolute;
+  width: 170px;
+  height: 100px;
+  top: 365px;
+}

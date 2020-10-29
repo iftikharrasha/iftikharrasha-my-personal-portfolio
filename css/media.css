@@ -4,6 +4,71 @@
 	.brand{
 		width: 70%;
 	}
+
+	.hero-me h1 {
+		width: 64%;
+		font-size: 18px;
+	}
+
+	.hero-me p {
+		font-size: 14px;
+	}
+
+	.hero-page .rubic-purp {
+		max-width: 130px;
+		top: 40px;
+	}
+
+	.hero-page .rubic-white {
+		max-width: 95px;
+		top: 500px;
+		right: 7px;
+	}
+
+	.counter-sec {
+		background: linear-gradient(90deg, rgb(129, 86, 252) 20%, white 20%);
+	}
+
+	.counts {
+		padding: 20px;
+		text-align: center;
+	}
+
+	.c-white {
+		color: #000000;
+	}
+
+	.what-can {
+		background: linear-gradient(90deg, rgb(129, 86, 252) 100%, white 110%);
+		color: black;
+	}
+
+	.float{
+		display: none;
+	}
+
+	.shadow{
+		display: none;
+	}
+
+	.typing {
+		position: absolute;
+		top: 370px;
+		left: 110px;
+		font-size: 20px;
+		color: black;
+	}
+
+	.what-items h2 {
+		font-size: 30px;
+	}
+
+	.card_icon i {
+		color: #e8e3f3;
+		font-size: 45px;
+	}
+
+
     /*------------header ends-------------*/
 }
 
@@ -14,12 +79,98 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+	.hero {
+		background: linear-gradient(110deg, white 33%, rgb(129, 86, 252) 33%);
+	}
+
+	.hero-me {
+		margin-top: 55px;
+	}
+
+	.hero-me h1 {
+		width: 69%;
+		font-size: 16px;
+		padding: 20px 20px 0 20px;
+	}
+
+	.hero-me p {
+		line-height: 15px;
+		font-size: 12px;
+	}
+
+	.styled_button {
+		font-size: 14px;
+	}
+
+	.hero-page img {
+		margin: 90px 0;
+	}
+
+	.hero-page .rubic-purp {
+		max-width: 105px;
+		top: 0px;
+		left: 0px;
+	}
+
+	.hero-page .rubic-white {
+		max-width: 70px;
+		top: 300px;
+		right: 45px;
+	}
+
+	.typing {
+		top: 325px;
+		left: 95px;
+		font-size: 14px;
+	}
+
+	.what-can {
+		background: linear-gradient(90deg, rgb(129, 86, 252) 27%, white 27%);
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    
+    .hero-me h1 {
+		font-size: 20px;
+	}
+
+	.hero-me p {
+		padding: 20px 0 20px 20px;
+		font-size: 15px;
+	}
+
+	.hero-page img {
+		width: 95%;
+	}
+
+	.hero-page .pen {
+		width: 40%;
+	}
+
+	.hero-page .rubic-purp {
+		max-width: 125px;
+		top: 80px;
+	}	
+
+	.hero-page .rubic-white {
+		max-width: 80px;
+		top: 525px;
+	}
+
+	.styled_button {
+		font-size: 16px;
+	}
+
+	.typing {
+		top: 420px;
+		left: 140px;
+		font-size: 14px;
+	}
+
+	.what-can {
+		background: linear-gradient(90deg, rgb(129, 86, 252) 27%, white 27%);
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
