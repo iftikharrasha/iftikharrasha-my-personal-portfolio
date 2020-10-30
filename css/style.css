@@ -32,7 +32,7 @@ body{
   padding: 25px 0;
   transition: .3s ease-in-out;
   position: relative;
-  z-index: 3;
+  z-index: 9;
 }
 
 .sticky{
@@ -166,13 +166,13 @@ body{
   right: 80px;
 }
 
-.typing{
+/*.typing{
   position: absolute;
   top: 500px;
   left: 150px;
   font-size: 20px;
   color: black;
-}
+}*/
 /* hero ends */
 
 /* counter starts */
@@ -203,7 +203,6 @@ body{
 .what-can {
   background: linear-gradient(90deg, rgb(129, 86, 252) 33%, white 33%);
   color: black;
-  min-height: 550px;
 }
 
 .what-items{
@@ -221,10 +220,6 @@ body{
 
 .card_icon i {
     color: #8154F7;
-}
-
-.card_text{
-
 }
 
 .float img{
@@ -269,6 +264,7 @@ body{
 
 .testimonials h2{
   color: white;
+  padding-top: 80px;
 }
 
 .glider-next, .glider-prev {
@@ -291,6 +287,10 @@ body{
   margin: 30px;
   padding: 25px;
   border-radius: 10px 10px 50px 0px;
+}
+
+blockquote{
+  font-size: 16px;
 }
 
 .cd-author img, .cd-author .cd-author-info {
@@ -384,7 +384,19 @@ body{
   color: #C1C1C1;
 }
 
-.information-name input:focus, .information-email input:focus {
+.information-submit input{
+  width: 400px;
+  max-width: 50%;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: tomato;
+  border: none;
+  border-radius: 0;
+}
+
+.information-name input:focus, .information-email input:focus, .information-submit:focus {
   outline: none;
 }
 
@@ -396,5 +408,63 @@ body{
   font-size: 40px;
   margin: 0 15px;
   color: white;
-  transition: 200ms ease-in-out;
+  transition: transform .2s linear;
+}
+
+.social_icon i:hover {
+  transform: translateY(-10px);
+}
+
+.footer{
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+}
+
+.fp-table{
+  padding-bottom: 0px !important;
+}
+
+/* location ends */
+
+/* works starts */
+.works{
+  background: linear-gradient(60deg, white 60%,rgb(129, 86, 252) 60%);
+  color: black;
+}
+
+.title p{
+  font-size: 40px;
+  font-weight: 700;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-left: 50%;
+}
+
+.products-tabs{
+  padding-bottom: 50px;
+  cursor: pointer;
+}
+
+.product-img{
+  margin-bottom: 50px;
+}
+
+.product-img img{
+  width: 50%;
+  max-height: 600px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.slick-slide:focus{
+  outline: none !important;
+}
+
+.product-name{
+  margin-bottom: 30px;
+}
+
+.sb{
+  margin-left: 20px;
 }

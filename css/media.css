@@ -5,6 +5,10 @@
 		width: 70%;
 	}
 
+	.hero-me {
+		margin-top: 0px;
+	}
+
 	.hero-me h1 {
 		width: 64%;
 		font-size: 18px;
@@ -59,13 +63,47 @@
 		color: black;
 	}
 
+	.what-items {
+		padding-bottom: 40px;
+	}
+
 	.what-items h2 {
 		font-size: 30px;
+	}
+
+	.single-icon {
+		margin-top: 20px;
 	}
 
 	.card_icon i {
 		color: #e8e3f3;
 		font-size: 45px;
+	}
+
+	.testimonials h2 {
+		color: black;
+	}
+	
+	.modal-form{
+		width: 100%;
+	}
+	
+	.reviews::before {
+		font-size: 50px;
+	}
+
+	.reviews::after {
+		font-size: 50px;
+		bottom: 65px;
+	}
+
+	.sm-none{
+		display: none;
+	}
+
+	#fp-nav.fp-right {
+		right: 17px;
+		display: none;
 	}
 
     /*------------header ends-------------*/
@@ -83,7 +121,7 @@
 	}
 
 	.hero-me {
-		margin-top: 55px;
+		margin-top: 0px;
 	}
 
 	.hero-me h1 {
@@ -171,11 +209,27 @@
 		height: 95px;
 		top: 260px;
 	}
+	.modal-form{
+		width: 86%;
+	}
+
+	.reviews::before {
+		font-size: 50px;
+	}
+
+	.reviews::after {
+		font-size: 50px;
+		bottom: 65px;
+	}
 	
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+	.hero-me {
+		margin-top: 0px;
+	}
+
     .hero-me h1 {
 		font-size: 20px;
 	}
@@ -264,6 +318,21 @@
 		width: 160px;
 		height: 95px;
 		top: 260px;
+	}
+
+	.modal-form {
+		width: 80%;
+		padding: 20px 30px;
+		margin-top: 45px;
+	}
+
+	.reviews::before {
+		font-size: 50px;
+	}
+
+	.reviews::after {
+		font-size: 50px;
+		bottom: 65px;
 	}
 }
 
