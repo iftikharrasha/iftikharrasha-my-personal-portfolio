@@ -15,11 +15,24 @@ body{
   line-height: 32px;
 }
 
+.github{
+    position: fixed;
+    left: 40px;
+    bottom: 40px;
+    color: black;
+    z-index: 4;
+}
+
+.github:hover{
+    color: #E68966;
+}
 /* header starts */
-.header{
+.header {
   background-color: #000000;
   padding: 25px 0;
   transition: .3s ease-in-out;
+  position: relative;
+  z-index: 3;
 }
 
 .sticky{
@@ -101,7 +114,7 @@ body{
   text-decoration: none;
   padding: 8px 15px;
   cursor: pointer;
-  box-shadow: 8px 8px 0px 1px #8154F7;
+  box-shadow: 8px 8px 0px 1px #E68966;
   transition: .3s;
 }
 
@@ -239,4 +252,149 @@ body{
   width: 170px;
   height: 100px;
   top: 365px;
+}
+
+#fp-nav ul li .fp-tooltip {
+  top: -9px;
+  color: #000;
+}
+
+/* what ends */
+
+/* testimonial starts */
+.testimonials{
+  background: linear-gradient(60deg,  rgb(129, 86, 252) 60%,white 60%);
+  color: black;
+}
+
+.testimonials h2{
+  color: white;
+}
+
+.glider-next, .glider-prev {
+  opacity: .25;
+  color: black !important;
+  cursor: pointer;
+}
+
+.glider-next:focus, .glider-prev:focus {
+  outline: none;
+}
+
+.reviews{
+  margin: 50px 0;
+}
+
+.figure{
+  background-color: #E68966;
+  display: block;
+  margin: 30px;
+  padding: 25px;
+  border-radius: 10px 10px 50px 0px;
+}
+
+.cd-author img, .cd-author .cd-author-info {
+  display: inline-block;
+  list-style: none;
+}
+
+.cd-author .cd-author-info {
+  text-align: left;
+  line-height: 1.2;
+}
+
+.cd-author img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #000000;
+  margin-right: 5px;
+  box-shadow: 0 0 6px rgb(0 0 0 / 30%);
+}
+
+.reviews::before {
+  content: "\f10d";
+  font-family: FontAwesome;
+  position: absolute;
+  font-size: 80px;
+  color: #E4E7ED;
+  transform: translateY(-50%) rotate(15deg);
+  z-index: 1;
+  left: 10%;
+}
+
+.reviews::after {
+  content: "\f10e";
+  font-family: FontAwesome;
+  position: absolute;
+  font-size: 80px;
+  color: #000000;
+  bottom: 185px;
+  transform: translateY(-50%) rotate(15deg);
+  z-index: 1;
+  right: 10%;
+}
+/* testimonial ends */
+
+/* location starts */
+.contact {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/contact.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.modal-form {
+  width: 80%;
+  padding: 45px 45px;
+  text-align: center;
+  background-color: #000;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+
+.form-information span{
+  color: #E68966;
+}
+
+.form-options {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.information-name, .information-email {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.information-name input, .information-email input {
+  width: 100%;
+  padding: 0 0 5px 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  color: #C1C1C1;
+}
+
+.information-name input:focus, .information-email input:focus {
+  outline: none;
+}
+
+.social_icon {
+  margin-top: 10px;
+}
+
+.social_icon i {
+  font-size: 40px;
+  margin: 0 15px;
+  color: white;
+  transition: 200ms ease-in-out;
 }
