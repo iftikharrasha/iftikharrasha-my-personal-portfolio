@@ -131,6 +131,12 @@
 		padding-top: 0px;
 	}
 
+	.album-ul {
+		display: block;
+		margin-left: 0;
+		margin-top: 0;
+	}
+
     /*------------header ends-------------*/
 }
 
@@ -246,6 +252,19 @@
 		font-size: 50px;
 		bottom: 65px;
 	}
+
+	.album-ul {
+		margin-left: 2%;
+	}
+
+	.album-items {
+		margin-left: 8%;
+	}
+
+	.album-items .itemBox {
+		width: 270px;
+		height: 270px;
+	}
 	
 }
 
@@ -358,6 +377,11 @@
 	.reviews::after {
 		font-size: 50px;
 		bottom: 65px;
+	}
+
+	.album-items .itemBox {
+		width: 270px;
+		height: 270px;
 	}
 }
 

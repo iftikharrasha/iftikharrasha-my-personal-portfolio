@@ -168,7 +168,57 @@
 
                 </div>
             </div>
+        </section>
 
+        <section class="section album">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <ul class="album-ul">
+                            <li class="list active" data-filter="all">All</li>
+                            <li class="list" data-filter="hometown">Hometown</li>
+                            <li class="list" data-filter="vertexwin">Vertexwin</li>
+                            <li class="list" data-filter="peacebusters">Peacebusters</li>
+                            <li class="list" data-filter="others">others</li>
+                        </ul>
+                        <div class="album-items">
+                            <div class="itemBox hometown">
+                                <img src="img/1.png" alt="hometown">
+                            </div>
+                            <div class="itemBox vertexwin">
+                                <img src="img/vwin1.png" alt="vertexwin">
+                            </div>
+                            <div class="itemBox peacebusters">
+                                <img src="img/peace.png" alt="peacebusters">
+                            </div>
+                            <div class="itemBox others">
+                                <img src="img/others.jpg" alt="others">
+                            </div>
+                            <div class="itemBox hometown">
+                                <img src="img/2.png" alt="hometown">
+                            </div>
+                            <div class="itemBox vertexwin">
+                                <img src="img/vwin2.png" alt="vertexwin">
+                            </div>
+                            <div class="itemBox hometown">
+                                <img src="img/3.png" alt="hometown">
+                            </div>
+                            <div class="itemBox hometown">
+                                <img src="img/4.png" alt="hometown">
+                            </div>
+                            <div class="itemBox hometown">
+                                <img src="img/5.png" alt="hometown">
+                            </div>
+                            <div class="itemBox hometown">
+                                <img src="img/6.png" alt="hometown">
+                            </div>
+                            <div class="itemBox hometown">
+                                <img src="img/7.png" alt="hometown">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="section contact">
@@ -215,8 +265,6 @@
                 </div>
 
             </div>
-
-
         </section>
 
         <!--<section class="section location">
@@ -256,6 +304,23 @@
 
     <!-- activation codes -->
     <script>
+        /* filter js */
+        $(document).ready(function () {
+            $('.list').click(function () {
+                const value = $(this).attr('data-filter');
+                if (value == 'all') {
+                    $('.itemBox').show('1000');
+                } else {
+                    $('.itemBox').not('.' + value).hide('1000');
+                    $('.itemBox').filter('.' + value).show('1000');
+                }
+            })
+
+            $('.list').click(function () {
+                $(this).addClass('active').siblings().removeClass('active');
+            })
+        });
+
         /* rellax parallax */
         var rellax = new Rellax('.rellax', {
             breakpoints: [576, 768, 1201]
