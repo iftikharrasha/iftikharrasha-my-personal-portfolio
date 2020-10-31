@@ -106,6 +106,31 @@
 		display: none;
 	}
 
+	.parallax-items{
+		display: none;
+	}
+
+	.phero-text h4 {
+		padding-top: 100%;
+		font-size: 45px;
+	}
+
+	.project-item1 {
+		background: white;
+	}
+
+	.project-item2 {
+		background: linear-gradient(90deg, rgb(129, 86, 252) 100%, white 100%);
+	}
+
+	.project-tabs {
+		padding: 50px 0;
+	}
+
+	.project-img img {
+		padding-top: 0px;
+	}
+
     /*------------header ends-------------*/
 }
 

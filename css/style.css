@@ -18,7 +18,7 @@ body{
 .github{
     position: fixed;
     left: 40px;
-    bottom: 40px;
+    bottom: 35px;
     color: black;
     z-index: 4;
 }
@@ -336,6 +336,50 @@ blockquote{
 }
 /* testimonial ends */
 
+
+/* works starts */
+.works{
+  background: linear-gradient(60deg, white 60%,rgb(129, 86, 252) 60%);
+  color: black;
+}
+
+.title p{
+  font-size: 40px;
+  font-weight: 700;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-left: 50%;
+}
+
+.products-tabs{
+  padding-bottom: 50px;
+  cursor: pointer;
+}
+
+.product-img{
+  margin-bottom: 50px;
+}
+
+.product-img img{
+  width: 50%;
+  max-height: 600px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.slick-slide:focus{
+  outline: none !important;
+}
+
+.product-name{
+  margin-bottom: 30px;
+}
+
+.sb{
+  margin-left: 20px;
+}
+/* works ends */
+
 /* location starts */
 .contact {
   width: 100%;
@@ -427,44 +471,115 @@ blockquote{
 
 /* location ends */
 
-/* works starts */
-.works{
-  background: linear-gradient(60deg, white 60%,rgb(129, 86, 252) 60%);
+/* hero starts */
+.project-hero{
+  background: linear-gradient(110deg, white 33%, rgb(129, 86, 252) 33%);
+}
+
+.project-hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/project-hero.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.phero-text{
+  width: 100%;
+}
+
+.phero-text h4{
+  padding-top: 45%;
   color: black;
-}
-
-.title p{
-  font-size: 40px;
+  font-size: 100px;
   font-weight: 700;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  margin-left: 50%;
 }
 
-.products-tabs{
-  padding-bottom: 50px;
+.parallax-items .ruler{
+  position: absolute;
+  top: 30%;
+  left: 1%;
+  width: 50px;
+  margin-top: 5%;
+  margin-left: 5%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.parallax-items .markbold{
+  position: absolute;
+  top: 77%;
+  right: 8%;
+  width: 25px;
+  margin-top: 5%;
+  margin-left: 5%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.parallax-items .marksemi{
+  position: absolute;
+  top: 37%;
+  right: 15%;
+  width: 15px;
+  margin-top: 5%;
+  margin-left: 5%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+/* hero starts */
+.project-item1{
+  background: linear-gradient(90deg, white 50%, rgb(129, 86, 252) 50%);
+}
+
+.project-item2{
+  background: linear-gradient(90deg, rgb(129, 86, 252) 50%, white 50%);
+}
+
+.project-tabs {
+  padding: 150px 0;
+  padding-right: 35px;
   cursor: pointer;
 }
 
-.product-img{
-  margin-bottom: 50px;
+.project-img {
+  margin: 50px 0;
 }
 
-.product-img img{
-  width: 50%;
+.project-img img{
+  width: 100%;
   max-height: 600px;
   margin: 0 auto;
   padding-top: 100px;
+  padding-left: 35px;
 }
 
-.slick-slide:focus{
-  outline: none !important;
+.pt-color{
+  color: #000;
 }
 
-.product-name{
+.projects-options {
   margin-bottom: 30px;
 }
 
-.sb{
-  margin-left: 20px;
+.project_icon i {
+  font-size: 40px;
+  margin: 0 15px;
+  color: black;
+  transition: transform .2s linear;
+}
+
+.project_icon i:hover {
+  transform: translateY(-10px);
+}
+
+/* Image style */
+#scrollUp {
+  background-image: url("../img/top.png");
+  bottom: 20px;
+  right: 20px;
+  width: 38px;  
+  height: 38px;
 }
