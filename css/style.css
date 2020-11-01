@@ -613,6 +613,7 @@ blockquote{
   flex-wrap: wrap;
   margin-bottom: 80px;
   margin-left: 5%;
+  cursor: pointer;
 }
 
 .album-items .itemBox{
@@ -626,4 +627,65 @@ blockquote{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.map{
+  height: 100vh;
+}
+
+.m-top{
+  margin-top: 100px;
+}
+
+/* video starts */
+.video{
+  width: 100%;
+  height: 100vh;
+}
+/* video ends */
+
+/* skills starts */
+.skills{
+color: black;
+}
+
+.skills_section{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.skill-head{
+  margin: 80px 0;
+}
+
+.skill-head h1{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+
+.skill-head p{
+  margin-bottom: 10px;
+}
+
+.skill-head a{
+  color: #E68966;
+}
+
+.skills_brands {
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-icon {
+  text-transform: uppercase;
+  width: 25%;
+}
+
+.skill-icon i{
+  font-size: 100px;
 }
