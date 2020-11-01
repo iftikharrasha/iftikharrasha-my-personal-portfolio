@@ -7,6 +7,7 @@
     <title>Iftikhar Rasha - Portfolio</title>
 
     <!-- jquery cdn -->
+    <link rel="stylesheet" href="assets/css/progresscircle.css">
 
 
     <!-- css links -->
@@ -69,10 +70,8 @@
                         <div class="skills_section text-center">
                             <div class="skill-head">
                                 <h1 class="font-60">
-                                    Skill & experience
+                                    skill & experience
                                 </h1>
-                                <p>The main area of expertise is front end development (client side of the web).
-                                </p>
                                 <p>HTML, CSS, JS, building small and medium web applications with php or laravel,
                                     custom plugins, features, animations, and coding interactive layouts. I have
                                     also full-stack developer experience with one of the most popular open
@@ -121,7 +120,156 @@
             </div>
         </section>
 
+        <section class="section skills">
+            <div class="container">
+                <div class="row responsive">
+                    <div class="col-md-12">
+                        <div class="skills_section text-center">
+                            <div class="skill-head">
+                                <h1 class="font-60">
+                                    my progress
+                                </h1>
+                                <p>The main area of expertise is front end development (client side of the web).
+                                </p>
+                            </div>
 
+                            <div class="skills-area">
+                                <div class="single-skill">
+                                    <div class="circlechart" data-percentage="92">
+                                        HTML5
+                                    </div>
+                                </div>
+                                <div class="single-skill">
+                                    <div class="circlechart" data-percentage="90">
+                                        CSS3
+                                    </div>
+                                </div>
+                                <div class="single-skill">
+                                    <div class="circlechart" data-percentage="85">
+                                        Bootstrap
+                                    </div>
+                                </div>
+                                <div class="single-skill">
+                                    <div class="circlechart" data-percentage="82">
+                                        Js/Jquery
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills">
+            <div class="container">
+                <div class="row responsive">
+                    <div class="col-md-12">
+                        <div class="skills_section">
+                            <div class="skills-path text-center">
+                                <div class="skill-str">
+                                    <div class="skill-name">PHP</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per" per="72"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-str">
+                                    <div class="skill-name">MySQL</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per" per="80"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-str">
+                                    <div class="skill-name">Wordpress</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per" per="64"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-str">
+                                    <div class="skill-name">Github</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per" per="88"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-str">
+                                    <div class="skill-name">Figma</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per" per="82"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills">
+            <div class="container">
+                <div class="row responsive">
+                    <div class="col-md-12">
+                        <div class="timeline-items text-center">
+                            <div class="timeline">
+                                <ul>
+                                    <li class="point-one">
+                                        <div class="time">
+                                            <span>June 2020</span>
+                                        </div>
+                                        <div class="content">
+                                            <h3>Works</h3>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="point-two">
+                                        <div class="time">
+                                            <span>2016- present</span>
+                                        </div>
+                                        <div class="content">
+                                            <h3>University</h3>
+                                            <p>
+                                                North South University<br>
+                                                Dhaka, Bashundhara
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="point-three">
+                                        <div class="time">
+                                            <span>2012 - 2015</span>
+                                        </div>
+                                        <div class="content">
+                                            <h3>College</h3>
+                                            <p>
+                                                Noapara Degree College<br>
+                                                Jeshore, Bangladesh
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="point-four">
+                                        <div class="time">
+                                            <span>2000 - 2012</span>
+                                        </div>
+                                        <div class="content">
+                                            <h3>School</h3>
+                                            <p>
+                                                Little Jewels School<br>
+                                                Jeshore, Bangladesh
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="section album">
             <div class="container">
@@ -250,6 +398,7 @@
     <!-- jq plugins -->
     <script src="assets/js/jquery.scrollUp.min.js"></script>
     <script src="assets/js/jquery.vide.min.js"></script>
+    <script src="assets/js/progresscircle.js"></script>
 
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -257,6 +406,27 @@
 
     <!-- activation codes -->
     <script>
+        /* progress circle */
+        $(function () {
+            $('.circlechart').circlechart();
+        });
+
+        /* progress str */
+        $('.skill-per').each(function () {
+            var $this = $(this);
+            var per = $this.attr('per');
+            $this.css("width", per + '%');
+            $({ animatedValue: 0 }).animate({ animatedValue: per }, {
+                duration: 1000,
+                step: function () {
+                    $this.attr('per', Math.floor(this.animatedValue) + '%');
+                },
+                complete: function () {
+                    $this.attr('per', Math.floor(this.animatedValue) + '%');
+                }
+            });
+        });
+
         /* scroll up */
         $(function () {
             $.scrollUp({

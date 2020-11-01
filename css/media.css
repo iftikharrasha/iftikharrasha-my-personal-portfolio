@@ -153,6 +153,15 @@
 		font-size: 70px;
 	}
 
+	.single-skill {
+		width: 50%;
+	}
+
+	.circle-chart {
+		width: 130px;
+		height: 130px;
+	}
+
     /*------------header ends-------------*/
 }
 
