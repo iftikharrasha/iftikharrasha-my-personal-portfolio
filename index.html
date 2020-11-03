@@ -7,10 +7,10 @@
     <title>Iftikhar Rasha - Portfolio</title>
 
     <!-- jquery cdn -->
-    <link rel="stylesheet" href="assets/css/fullpage.min.css">
-    <link rel="stylesheet" href="assets/css/glider.min.css">
     <link rel="stylesheet" href="assets/css/slick-theme.min.css">
     <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/fullpage.min.css">
+    <link rel="stylesheet" href="assets/css/glider.min.css">
 
     <!-- css links -->
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
@@ -23,6 +23,19 @@
 </head>
 
 <body>
+    <!-- preloader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_four"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_one"></div>
+
+            </div>
+        </div>
+    </div>
+
     <div class="loader-wrapper">
         <span class="loader"><span class="loader-inner"></span></span>
     </div>
@@ -45,7 +58,7 @@
                 <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html#home">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="projects.html">Projects</a>
@@ -54,7 +67,7 @@
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="http://iftikharrasha.me/" target="_blank">Download CV</a>
+                            <a class="nav-link" href="#" target="_blank">Download CV</a>
                         </li>
                     </ul>
                 </div>
@@ -315,9 +328,7 @@
                                         <div class="cd-author">
                                             <img src="https://i.ibb.co/KxGXk3Z/94951537-1066403760396805-3121804190347689984-n.jpg"
                                                 alt="Author image">
-                                            <ul class="cd-author-info">
-                                                <li>John Smith</li>
-                                            </ul>
+                                            <p class="cd-author-info">John Smith</p>
                                         </div>
                                     </figure>
                                     <figure class="figure">
@@ -328,42 +339,37 @@
                                         <div class="cd-author">
                                             <img src="https://i.ibb.co/RPfP1R8/24013bc1f2de3be34f0421229e5401b1.jpg"
                                                 alt="Author image">
-                                            <ul class="cd-author-info">
-                                                <li>John Smith</li>
-                                            </ul>
+                                            <p class="cd-author-info">John Smith</p>
                                         </div>
                                     </figure>
                                     <figure class="figure">
                                         <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-                                            suscipit maiores qui?"</blockquote>
+                                            suscipit maiores qui? Lorem ipsum, dolor sit amet consectetur adipisicing
+                                            elit. Vero, rerum? Lorem ipsum dolor sit amet."</blockquote>
                                         <div class="cd-author">
                                             <img src="https://i.ibb.co/M7TmQSB/fe6509b2140af2431215efc71cb0bf55.jpg"
                                                 alt="Author image">
-                                            <ul class="cd-author-info">
-                                                <li>John Smith</li>
-                                            </ul>
+                                            <p class="cd-author-info">John Smith</p>
                                         </div>
                                     </figure>
                                     <figure class="figure">
                                         <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-                                            suscipit maiores qui?"</blockquote>
+                                            suscipit maiores qui? Lorem ipsum, dolor sit amet consectetur adipisicing
+                                            elit. Vero, rerum? Lorem ipsum dolor sit amet."</blockquote>
                                         <div class="cd-author">
                                             <img src="https://i.ibb.co/KxGXk3Z/94951537-1066403760396805-3121804190347689984-n.jpg"
                                                 alt="Author image">
-                                            <ul class="cd-author-info">
-                                                <li>John Smith</li>
-                                            </ul>
+                                            <p class="cd-author-info">John Smith</p>
                                         </div>
                                     </figure>
                                     <figure class="figure">
                                         <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-                                            suscipit maiores qui?"</blockquote>
+                                            suscipit maiores qui? Lorem ipsum, dolor sit amet consectetur adipisicing
+                                            elit. Vero, rerum? Lorem ipsum dolor sit amet."</blockquote>
                                         <div class="cd-author">
                                             <img src="https://i.ibb.co/RPfP1R8/24013bc1f2de3be34f0421229e5401b1.jpg"
                                                 alt="Author image">
-                                            <ul class="cd-author-info">
-                                                <li>John Smith</li>
-                                            </ul>
+                                            <p class="cd-author-info">John Smith</p>
                                         </div>
                                     </figure>
                                 </div>
@@ -407,7 +413,9 @@
                                     </div>
                                 </form>
                                 <p>
-                                    <br>my <span> social handles</span>
+                                    <br>my <span><a href="https://www.linkedin.com/in/tdrdimov/" target="_blank"
+                                            rel="noopener noreferrer">social handles</a></span>
+
                                 </p>
                             </div>
                             <div class="form-options">
@@ -424,36 +432,22 @@
                 </div>
 
             </div>
-
-
         </section>
 
-        <!--<section class="section location">
-            <video id="myVideo" loop="" muted="" data-autoplay="" __idm_id__="839919617" preload="auto"
-                style="height: 100%; width: 100%; padding-bottom: 80px; display: block;"
-                src="video/iftikharrasha.mp4"></video>
-        </section>-->
-
-        <section class="section fp-auto-height fp-section fp-table active fp-completely" id="section2"
-            data-fp-styles="null" data-anchor="anchor3">
-            <div class="fp-tableCell">
-                <div class="myContent">
-                    <div class="intro footer">
-                        <footer class="footer text-center">
-                            <span class="copyright">
-                                ©
-                                <script>document.write(new Date().getFullYear());</script> iftikharrasha.com
-                            </span>
-                        </footer>
-                    </div>
-                </div>
-            </div>
+        <section class="section fp-auto-height" id="section6">
+            <footer class="footer text-center">
+                <span class="copyright">
+                    ©
+                    <script>document.write(new Date().getFullYear());</script> iftikharrasha.com
+                </span>
+            </footer>
         </section>
     </div>
 
 
 
     <!-- js links -->
+    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- jq plugins -->
     <script src="assets/js/waypoints.min.js"></script>
@@ -469,33 +463,10 @@
 
     <!-- activation codes -->
     <script>
-        /* sticky header */
-        $(window).scroll(function () {
-            if ($(window).scrollTop() > 0) {
-                $("header").addClass("sticky");
-            } else {
-                $("header").removeClass("sticky");
-            }
-        });
-
-        /* fullpage plugin */
-        new fullpage('#fullPage', {
-            animateAnchor: false,
-            css3: true,
-            paddingBottom: '50px',
-            autoScrolling: false,
-            navigation: true,
-            bigSectionsDestination: top,
-            anchors: ['home', 'services', 'works', 'testimonials', 'contact', 'credit'],
-            navigationTooltips: ['Home', 'Services', 'Works', 'Testimonials', 'Contact', 'Credit'],
-            showActiveTooltip: true,
-            scrollingSpeed: 200,
-        });
-
         /* counter plugin */
         $('.count').counterUp({
-            delay: 10,
-            time: 1000
+            delay: 1,
+            time: 2000
         });
 
         /* typed plugin */
@@ -512,8 +483,9 @@
 
         /* glider plugin */
         new Glider(document.querySelector('.glider'), {
-            duration: 0.55,
+            duration: 0.99,
             dots: '#dots',
+            slidesToScroll: 1,
             draggable: true,
             arrows: {
                 prev: '.glider-prev',
@@ -546,9 +518,11 @@
         /* Slick plugin */
         $('.responsive').slick({
             dots: true,
-            arrows: false,
-            infinite: false,
-            speed: 300,
+            arrows: true,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            speed: 700,
             slidesToShow: 1,
             slidesToScroll: 1,
             responsive: [
@@ -571,11 +545,27 @@
                 {
                     breakpoint: 480,
                     settings: {
+                        dots: true,
+                        arrows: false,
                         slidesToShow: 1,
                         slidesToScroll: 1
                     }
                 }
             ]
+        });
+
+
+        /* fullpage plugin */
+        new fullpage('#fullPage', {
+            animateAnchor: false,
+            css3: true,
+            autoScrolling: true,
+            navigation: true,
+            bigSectionsDestination: top,
+            anchors: ['home', 'services', 'works', 'testimonials', 'contact', 'credit'],
+            navigationTooltips: ['Home', 'Services', 'Works', 'Testimonials', 'Contact', 'Credit'],
+            showActiveTooltip: true,
+            scrollingSpeed: 1000,
         });
 
     </script>

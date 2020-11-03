@@ -21,6 +21,19 @@
 </head>
 
 <body>
+    <!-- preloader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_four"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_one"></div>
+
+            </div>
+        </div>
+    </div>
+
     <header class="header">
         <div class="container">
             <!-- navbar -->
@@ -222,8 +235,7 @@
                                         <div class="content">
                                             <h3>Works</h3>
                                             <p>
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry.
+                                                Full Stack Web Developer, Shikhbe Shobai
                                             </p>
                                         </div>
                                     </li>
@@ -235,7 +247,7 @@
                                             <h3>University</h3>
                                             <p>
                                                 North South University<br>
-                                                Dhaka, Bashundhara
+                                                Bashundhara, Dhaka
                                             </p>
                                         </div>
                                     </li>
@@ -271,57 +283,6 @@
             </div>
         </section>
 
-        <section class="section album">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <ul class="album-ul">
-                            <li class="list active" data-filter="all">All</li>
-                            <li class="list" data-filter="hometown">Hometown</li>
-                            <li class="list" data-filter="vertexwin">Vertexwin</li>
-                            <li class="list" data-filter="peacebusters">Peacebusters</li>
-                            <li class="list" data-filter="others">others</li>
-                        </ul>
-                        <div class="album-items">
-                            <div class="itemBox hometown">
-                                <a href="img/1.png"><img src="img/1.png" alt="hometown"></a>
-                            </div>
-                            <div class="itemBox vertexwin">
-                                <a href="img/vwin1.png"><img src="img/vwin1.png" alt="vertexwin"></a>
-                            </div>
-                            <div class="itemBox peacebusters">
-                                <a href="img/peace.png"><img src="img/peace.png" alt="peacebusters"></a>
-                            </div>
-                            <div class="itemBox others">
-                                <a href="img/others.jpg"><img src="img/others.jpg" alt="others"></a>
-                            </div>
-                            <div class="itemBox hometown">
-                                <a href="img/2.png"><img src="img/2.png" alt="hometown"></a>
-                            </div>
-                            <div class="itemBox vertexwin">
-                                <a href="img/vwin2.png"><img src="img/vwin2.png" alt="vertexwin"></a>
-                            </div>
-                            <div class="itemBox hometown">
-                                <a href="img/3.png"><img src="img/3.png" alt="hometown"></a>
-                            </div>
-                            <div class="itemBox hometown">
-                                <a href="img/4.png"><img src="img/4.png" alt="hometown"></a>
-                            </div>
-                            <div class="itemBox hometown">
-                                <a href="img/5.png"><img src="img/5.png" alt="hometown"></a>
-                            </div>
-                            <div class="itemBox hometown">
-                                <a href="img/6.png"><img src="img/6.png" alt="hometown"></a>
-                            </div>
-                            <div class="itemBox hometown">
-                                <a href="img/7.png"><img src="img/7.png" alt="hometown"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="section contact map">
             <div class="container">
                 <div class="row">
@@ -329,7 +290,7 @@
 
                     </div>
                     <div class="col-lg-6 col-md-8">
-                        <div class="modal-form m-top">
+                        <div class="modal-form m2-top">
                             <div class="form-information">
                                 <p>What would you do if you had a web expert
                                     available at your fingertips?
@@ -368,26 +329,13 @@
             </div>
         </section>
 
-        <!--<section class="section location">
-            <video id="myVideo" loop="" muted="" data-autoplay="" __idm_id__="839919617" preload="auto"
-                style="height: 100%; width: 100%; padding-bottom: 80px; display: block;"
-                src="video/iftikharrasha.mp4"></video>
-        </section>-->
-
-        <section class="section fp-auto-height fp-section fp-table active fp-completely" id="section2"
-            data-fp-styles="null" data-anchor="anchor3">
-            <div class="fp-tableCell">
-                <div class="myContent">
-                    <div class="intro footer">
-                        <footer class="footer text-center">
-                            <span class="copyright">
-                                ©
-                                <script>document.write(new Date().getFullYear());</script> iftikharrasha.com
-                            </span>
-                        </footer>
-                    </div>
-                </div>
-            </div>
+        <section class="section">
+            <footer class="footer ft-pro text-center">
+                <span class="copyright">
+                    ©
+                    <script>document.write(new Date().getFullYear());</script> iftikharrasha.com
+                </span>
+            </footer>
         </section>
     </div>
 
@@ -417,7 +365,7 @@
             var per = $this.attr('per');
             $this.css("width", per + '%');
             $({ animatedValue: 0 }).animate({ animatedValue: per }, {
-                duration: 1000,
+                duration: 2000,
                 step: function () {
                     $this.attr('per', Math.floor(this.animatedValue) + '%');
                 },
