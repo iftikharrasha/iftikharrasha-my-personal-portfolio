@@ -4,17 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iftikhar Rasha - Portfolio</title>
+    <title>Iftikhar Rasha - Projects</title>
 
     <!-- jquery cdn -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/wowjs/animate.css">
+    <link rel="stylesheet" href="assets/popupjs/magnific-popup.min.css">
 
-
-    <!-- css links -->
+    <!-- fonts links -->
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- fonts awesome kit -->
+    <!-- font awesome kit -->
     <script src="https://kit.fontawesome.com/9dbb72da13.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -22,7 +21,7 @@
 </head>
 
 <body>
-    <!-- preloader -->
+    <!---- preloader starts ---->
     <div id="loading">
         <div id="loading-center">
             <div id="loading-center-absolute">
@@ -34,10 +33,14 @@
             </div>
         </div>
     </div>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <!----- preloader ends ----->
 
+    <!------ header starts ----->
     <header class="header">
         <div class="container">
-            <!-- navbar -->
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand brand" href="index.html"><img src="img/logo.png" class="img-fluid"
                         alt="iftikharrasha">
@@ -53,7 +56,7 @@
                 <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html#home">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="projects.html">Projects</a>
@@ -62,346 +65,357 @@
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="http://iftikharrasha.me/" target="_blank">Download CV</a>
+                            <a class="nav-link" href="#" target="_blank">Download CV</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <!-- navbar -->
         </div>
     </header>
+    <!-------- header ends ------->
 
-    <a class="github" href="https://github.com/iftikharrasha" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+    <!---- github icon starts ---->
+    <a class="github" href="https://github.com/iftikharrasha" target="_blank">
+        <i class="fab fa-github fa-2x"></i>
+    </a>
+    <!------ github icon ends ---->
 
-    <div id="fullPage">
-        <section class="section project-hero">
-            <div class="parallax-items">
-                <img class="rellax ruler" data-rellax-speed="-2" src="img/ruler.png" alt="ruler">
-                <img class="rellax markbold" data-rellax-speed="10" src="img/markerbold.png" alt="ruler">
-                <img class="rellax marksemi" data-rellax-speed="-4" src="img/markersemi.png" alt="ruler">
-                <!--<div class="hero-page">
-                    <img class="rubic rubic-purp" src="img/purple.png" alt="purpcube">
-                    <img class="rubic rubic-white" src="img/white.png" alt="whitecube">
-                </div>-->
+    <!---- project hero starts --->
+    <section class="section project-hero">
+        <div class="parallax-items">
+            <img class="rellax ruler" data-rellax-speed="-3" src="img/ruler.png" alt="ruler">
+            <img class="rellax markbold" data-rellax-speed="10" src="img/markerbold.png" alt="ruler">
+            <img class="rellax marksemi" data-rellax-speed="-4" src="img/markersemi.png" alt="ruler">
+            <!--<div class="hero-page">
+                <img class="rubic rubic-purp" src="img/purple.png" alt="purpcube">
+                <img class="rubic rubic-white" src="img/white.png" alt="whitecube">
+            </div>-->
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="phero-text text-center">
+                        <h4 class="rellax" data-rellax-speed="10">My Projects</h4>
+                    </div>
+
+                </div>
             </div>
+        </div>
+    </section>
+    <!----- project hero ends ---->
+
+    <!---- all projects starts --->
+    <section class="section projects">
+
+        <div class="project-item1">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="phero-text text-center">
-                            <h4 class="rellax" data-rellax-speed="10">My Projects</h4>
-                        </div>
+                <div class="row responsive">
+                    <div class="col-md-6">
+                        <div class="project-tabs wow slideInLeft" data-wow-duration="2s" data-wow-delay=".1s">
+                            <h3>Retro an old style vintage portfolio
+                            </h3>
 
+                            <h4>Type: Portfolio
+                            </h4>
+
+                            <p class="pt-color">What would you do if you had a web expert
+                                available at your fingertips? send me a, hey.What would you do if you had a web
+                                expert
+                                available at your fingertips? send me a, hey.What would you do if you had a web
+                                expert
+                                available at your fingertips? send me a, hey.
+                            </p>
+
+                            <div class="projects-options">
+                                <div class="project_icon">
+                                    <a href="#"><i class="fab fa-html5" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fab fa-css3" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fab fa-bootstrap" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="section projects">
-
-            <div class="project-item1">
-                <div class="container">
-                    <div class="row responsive">
-                        <div class="col-md-6">
-                            <div class="project-tabs wow slideInLeft" data-wow-duration="2s" data-wow-delay=".1s">
-                                <h3>Retro an old style vintage portfolio
-                                </h3>
-
-                                <h4>Type: Portfolio
-                                </h4>
-
-                                <p class="pt-color">What would you do if you had a web expert
-                                    available at your fingertips? send me a, hey.What would you do if you had a web
-                                    expert
-                                    available at your fingertips? send me a, hey.What would you do if you had a web
-                                    expert
-                                    available at your fingertips? send me a, hey.
-                                </p>
-
-                                <div class="projects-options">
-                                    <div class="project_icon">
-                                        <a href="#"><i class="fab fa-html5" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fab fa-css3" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fab fa-bootstrap" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
+                    <div class="col-md-6 text-center">
+                        <div class="products-tabs p-width">
+                            <div class="project-img">
+                                <img class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".5s"
+                                    src="img/retro.png" alt="retro">
                             </div>
+                            <a class="styled_button wow slideInLeft" data-wow-duration="2s" data-wow-delay=".6s"
+                                href="retro.iftikharrasha.com" class="styled_button">Live Demo</a>
                         </div>
-
-                        <div class="col-md-6 text-center">
-                            <div class="products-tabs">
-                                <div class="project-img">
-                                    <img class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".5s"
-                                        src="img/retro.png" alt="retro">
-                                </div>
-                                <a class="styled_button wow slideInLeft" data-wow-duration="2s" data-wow-delay="2s"
-                                    href="retro.iftikharrasha.com" class="styled_button">Live Demo</a>
-                            </div>
-                        </div>
-
                     </div>
 
                 </div>
+
             </div>
+        </div>
 
-            <div class="project-item2">
-                <div class="container">
-                    <div class="row responsive">
-                        <div class="col-md-6">
-                            <div class="project-tabs wow slideInLeft" data-wow-duration="2s" data-wow-delay=".1s">
-                                <h3>Tinyone - PSD to Bootstrap
-                                </h3>
-
-                                <h4>Type: Landing Page
-                                </h4>
-
-                                <p>What would you do if you had a web expert
-                                    available at your fingertips? send me a, hey.What would you do if you had a web
-                                    expert
-                                    available at your fingertips? send me a, hey.What would you do if you had a web
-                                    expert
-                                    available at your fingertips? send me a, hey.
-                                </p>
-
-                                <div class="projects-options">
-                                    <div class="project_icon">
-                                        <a href="#"><i class="fab fa-html5" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fab fa-css3" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fab fa-bootstrap" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fab fa-php" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 text-center">
-                            <div class="products-tabs">
-                                <div class="project-img">
-                                    <img class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".5s"
-                                        src="img/tinyone.png" alt="vertexwin">
-                                </div>
-
-                                <a class="styled_button wow slideInLeft" data-wow-duration="2s" data-wow-delay="2s"
-                                    href="#vertexwin">Live Demo</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="project-item1">
-                <div class="container">
-                    <div class="row responsive">
-                        <div class="col-md-6">
-                            <div class="project-tabs wow slideInLeft" data-wow-duration="2s" data-wow-delay=".1s">
-                                <h3>Minimo - A Minimal Template
-                                </h3>
-
-                                <h4>Type: Landing Page
-                                </h4>
-
-                                <p class="pt-color">What would you do if you had a web expert
-                                    available at your fingertips? send me a, hey.What would you do if you had a web
-                                    expert
-                                    available at your fingertips? send me a, hey.What would you do if you had a web
-                                    expert
-                                    available at your fingertips? send me a, hey.
-                                </p>
-
-                                <div class="projects-options">
-                                    <div class="project_icon">
-                                        <a href="#"><i class="fab fa-html5" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fab fa-css3" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fab fa-bootstrap" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fab fa-php" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 text-center">
-                            <div class="products-tabs">
-                                <div class="project-img">
-                                    <img class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".5s"
-                                        src="img/minimo.png" alt="vertexwin">
-                                </div>
-
-                                <a class="styled_button wow slideInLeft" data-wow-duration="2s" data-wow-delay="2s"
-                                    href="#vertexwin" class="styled_button">Live Demo</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="project-item2">
-                <div class="container">
-                    <div class="row responsive">
-                        <div class="col-md-6">
-                            <div class="project-tabs wow slideInLeft" data-wow-duration="2s" data-wow-delay=".1s">
-                                <h3>Vertexwin - A machineries website
-                                </h3>
-
-                                <h4>Type: Industry
-                                </h4>
-
-                                <p class="pt-color">What would you do if you had a web expert
-                                    available at your fingertips? send me a, hey.What would you do if you had a web
-                                    expert
-                                    available at your fingertips? send me a, hey.What would you do if you had a web
-                                    expert
-                                    available at your fingertips? send me a, hey.
-                                </p>
-
-                                <div class="projects-options">
-                                    <div class="project_icon">
-                                        <a href="#"><i class="fab fa-html5" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fab fa-css3" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fab fa-bootstrap" aria-hidden="true"></i></a>
-                                        <a href="#"><i class="fab fa-php" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 text-center">
-                            <div class="products-tabs">
-                                <div class="project-img">
-                                    <img class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".5s"
-                                        src="img/vwin.png" alt="vertexwin">
-                                </div>
-
-                                <a class="styled_button wow slideInLeft" data-wow-duration="2s" data-wow-delay="2s"
-                                    href="#vertexwin" class="styled_button">Live Demo</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="section album">
+        <div class="project-item2">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2>User Testimonials</h2>
-                        <ul class="album-ul">
-                            <li class="list active" data-filter="all">All</li>
-                            <li class="list" data-filter="hometown">Hometown</li>
-                            <li class="list" data-filter="vertexwin">Vertexwin</li>
-                            <li class="list" data-filter="peacebusters">Peacebusters</li>
-                            <li class="list" data-filter="others">others</li>
-                        </ul>
-                        <div class="album-items">
-                            <div class="itemBox hometown">
-                                <a href="img/1.png"><img src="img/1.png" alt="hometown"></a>
-                            </div>
-                            <div class="itemBox vertexwin">
-                                <a href="img/vwin1.png"><img src="img/vwin1.png" alt="vertexwin"></a>
-                            </div>
-                            <div class="itemBox peacebusters">
-                                <a href="img/peace.png"><img src="img/peace.png" alt="peacebusters"></a>
-                            </div>
-                            <div class="itemBox others">
-                                <a href="img/others.jpg"><img src="img/others.jpg" alt="others"></a>
-                            </div>
-                            <div class="itemBox hometown">
-                                <a href="img/2.png"><img src="img/2.png" alt="hometown"></a>
-                            </div>
-                            <div class="itemBox vertexwin">
-                                <a href="img/vwin2.png"><img src="img/vwin2.png" alt="vertexwin"></a>
-                            </div>
-                            <div class="itemBox hometown">
-                                <a href="img/3.png"><img src="img/3.png" alt="hometown"></a>
-                            </div>
-                            <div class="itemBox hometown">
-                                <a href="img/4.png"><img src="img/4.png" alt="hometown"></a>
-                            </div>
-                            <div class="itemBox hometown">
-                                <a href="img/5.png"><img src="img/5.png" alt="hometown"></a>
-                            </div>
-                            <div class="itemBox hometown">
-                                <a href="img/6.png"><img src="img/6.png" alt="hometown"></a>
-                            </div>
-                            <div class="itemBox hometown">
-                                <a href="img/7.png"><img src="img/7.png" alt="hometown"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                <div class="row responsive">
+                    <div class="col-md-6">
+                        <div class="project-tabs wow slideInLeft" data-wow-duration="2s" data-wow-delay=".1s">
+                            <h3>Tinyone - PSD to Bootstrap
+                            </h3>
 
-        <section class="section contact map">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-4">
+                            <h4>Type: Landing Page
+                            </h4>
 
-                    </div>
-                    <div class="col-lg-6 col-md-8">
-                        <div class="modal-form m-top">
-                            <div class="form-information">
-                                <p>What would you do if you had a web expert
-                                    available at your fingertips?
-                                    <br>send me a, hey.
-                                </p>
-                                <form action="" method="post">
-                                    <div class="information-name">
-                                        <input id="name" type="text" name="query" placeholder="Your Query">
-                                    </div>
+                            <p>What would you do if you had a web expert
+                                available at your fingertips? send me a, hey.What would you do if you had a web
+                                expert
+                                available at your fingertips? send me a, hey.What would you do if you had a web
+                                expert
+                                available at your fingertips? send me a, hey.
+                            </p>
 
-                                    <div class="information-email">
-                                        <input id="name" type="email" name="query" placeholder="Your Email">
-                                    </div>
-
-                                    <div class="information-submit">
-                                        <input type="submit" name="SUBMIT" value="Send Request">
-                                    </div>
-                                </form>
-                                <p>
-                                    <br>my <span> social handles</span>
-                                </p>
-                            </div>
-                            <div class="form-options">
-                                <div class="social_icon">
-                                    <a href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fab fa-instagram-square" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-
+                            <div class="projects-options">
+                                <div class="project_icon">
+                                    <a href="#"><i class="fab fa-html5" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fab fa-css3" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fab fa-bootstrap" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fab fa-php" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-md-6 text-center">
+                        <div class="products-tabs p-width">
+                            <div class="project-img">
+                                <img class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".5s"
+                                    src="img/tinyone.png" alt="vertexwin">
+                            </div>
+
+                            <a class="styled_button wow slideInLeft" data-wow-duration="2s" data-wow-delay=".6s"
+                                href="#vertexwin">Live Demo</a>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
-        </section>
+        </div>
 
-        <section class="section">
-            <footer class="footer ft-pro text-center">
-                <span class="copyright">
-                    ©
-                    <script>document.write(new Date().getFullYear());</script> iftikharrasha.com
-                </span>
-            </footer>
-        </section>
-    </div>
+        <div class="project-item1">
+            <div class="container">
+                <div class="row responsive">
+                    <div class="col-md-6">
+                        <div class="project-tabs wow slideInLeft" data-wow-duration="2s" data-wow-delay=".1s">
+                            <h3>Minimo - A Minimal Template
+                            </h3>
 
+                            <h4>Type: Landing Page
+                            </h4>
 
+                            <p class="pt-color">What would you do if you had a web expert
+                                available at your fingertips? send me a, hey.What would you do if you had a web
+                                expert
+                                available at your fingertips? send me a, hey.What would you do if you had a web
+                                expert
+                                available at your fingertips? send me a, hey.
+                            </p>
+
+                            <div class="projects-options">
+                                <div class="project_icon">
+                                    <a href="#"><i class="fab fa-html5" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fab fa-css3" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fab fa-bootstrap" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fab fa-php" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 text-center">
+                        <div class="products-tabs p-width">
+                            <div class="project-img">
+                                <img class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".5s"
+                                    src="img/minimo.png" alt="vertexwin">
+                            </div>
+
+                            <a class="styled_button wow slideInLeft" data-wow-duration="2s" data-wow-delay=".6s"
+                                href="#vertexwin" class="styled_button">Live Demo</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="project-item2">
+            <div class="container">
+                <div class="row responsive">
+                    <div class="col-md-6">
+                        <div class="project-tabs wow slideInLeft" data-wow-duration="2s" data-wow-delay=".1s">
+                            <h3>Vertexwin - A machineries website
+                            </h3>
+
+                            <h4>Type: Industry
+                            </h4>
+
+                            <p class="pt-color">What would you do if you had a web expert
+                                available at your fingertips? send me a, hey.What would you do if you had a web
+                                expert
+                                available at your fingertips? send me a, hey.What would you do if you had a web
+                                expert
+                                available at your fingertips? send me a, hey.
+                            </p>
+
+                            <div class="projects-options">
+                                <div class="project_icon">
+                                    <a href="#"><i class="fab fa-html5" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fab fa-css3" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fab fa-bootstrap" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fab fa-php" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 text-center">
+                        <div class="products-tabs p-width">
+                            <div class="project-img">
+                                <img class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".2s" src="img/vwin.png"
+                                    alt="vertexwin">
+                            </div>
+
+                            <a class="styled_button wow slideInLeft" data-wow-duration="2s" data-wow-delay=".6s"
+                                href="#vertexwin" class="styled_button">Live Demo</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!----- all projects ends ---->
+
+    <!------- allbum starts ------>
+    <section class="section album">
+        <div class="container con-sm">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Logo Designs</h2>
+                    <ul class="album-ul">
+                        <li class="list active" data-filter="all">All</li>
+                        <li class="list" data-filter="hometown">Hometown</li>
+                        <li class="list" data-filter="vertexwin">Vertexwin</li>
+                        <li class="list" data-filter="peacebusters">Peacebusters</li>
+                        <li class="list" data-filter="others">others</li>
+                    </ul>
+                    <div class="album-items">
+                        <div class="itemBox hometown">
+                            <a href="img/1.png"><img src="img/1.png" alt="hometown"></a>
+                        </div>
+                        <div class="itemBox vertexwin">
+                            <a href="img/vwin1.png"><img src="img/vwin1.png" alt="vertexwin"></a>
+                        </div>
+                        <div class="itemBox peacebusters">
+                            <a href="img/peace.png"><img src="img/peace.png" alt="peacebusters"></a>
+                        </div>
+                        <div class="itemBox others">
+                            <a href="img/others.jpg"><img src="img/others.jpg" alt="others"></a>
+                        </div>
+                        <div class="itemBox hometown">
+                            <a href="img/2.png"><img src="img/2.png" alt="hometown"></a>
+                        </div>
+                        <div class="itemBox vertexwin">
+                            <a href="img/vwin2.png"><img src="img/vwin2.png" alt="vertexwin"></a>
+                        </div>
+                        <div class="itemBox hometown">
+                            <a href="img/3.png"><img src="img/3.png" alt="hometown"></a>
+                        </div>
+                        <div class="itemBox hometown">
+                            <a href="img/4.png"><img src="img/4.png" alt="hometown"></a>
+                        </div>
+                        <div class="itemBox hometown">
+                            <a href="img/5.png"><img src="img/5.png" alt="hometown"></a>
+                        </div>
+                        <div class="itemBox hometown">
+                            <a href="img/6.png"><img src="img/6.png" alt="hometown"></a>
+                        </div>
+                        <div class="itemBox hometown">
+                            <a href="img/7.png"><img src="img/7.png" alt="hometown"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------- allbum ends ------->
+
+    <!-- contact starts -->
+    <section class="section contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-4">
+
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <div class="modal-form m-pro">
+                        <div class="form-information">
+                            <p>What would you do if you had an experienced web expert
+                                available at your fingertips?
+                                <br><span>send me a, hey.</span>
+                            </p>
+                            <form action="" method="post">
+                                <div class="information-name">
+                                    <input id="name" type="text" name="query" placeholder="Your Query">
+                                </div>
+
+                                <div class="information-email">
+                                    <input id="name" type="email" name="query" placeholder="Your Email">
+                                </div>
+
+                                <div class="information-submit">
+                                    <input type="submit" name="SUBMIT" value="Send">
+                                </div>
+                            </form>
+                            <p>
+                                <br>or <span>connect</span> me at
+
+                            </p>
+                        </div>
+                        <div class="form-options">
+                            <div class="social_icon">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--- contact ends --->
+
+    <!-- footer starts --->
+    <section class="section fp-auto-height">
+        <footer class="footer f-pro text-center">
+            <span class="copyright">
+                ©
+                <script>document.write(new Date().getFullYear());</script> iftikharrasha.com
+            </span>
+        </footer>
+    </section>
+    <!--- footer ends ---->
 
     <!-- js links -->
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- jq plugins -->
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/rellax.min.js"></script>
-    <script src="assets/js/jquery.scrollUp.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/rellaxjs/rellax.min.js"></script>
+    <script src="assets/wowjs/wow.min.js"></script>
+    <script src="assets/scrollupjs/jquery.scrollUp.min.js"></script>
+    <script src="assets/popupjs/jquery.magnific-popup.min.js"></script>
 
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -409,45 +423,52 @@
 
     <!-- activation codes -->
     <script>
-        /* wow js */
-        var wow = new WOW(
-            {
-                boxClass: 'wow',
-                animateClass: 'animated',
-                offset: 0,
-                mobile: true,
-                live: true,
-                callback: function (box) {
-                },
-                scrollContainer: null,
-                resetAnimation: true,
-            }
-        );
-        wow.init();
-
-
-        /* filter js */
         $(document).ready(function () {
-            $('.list').click(function () {
-                const value = $(this).attr('data-filter');
-                if (value == 'all') {
-                    $('.itemBox').show('1000');
-                } else {
-                    $('.itemBox').not('.' + value).hide('1000');
-                    $('.itemBox').filter('.' + value).show('1000');
-                }
-            })
-
-            $('.list').click(function () {
-                $(this).addClass('active').siblings().removeClass('active');
-            })
+            /* scroll up */
+            $(function () {
+                $.scrollUp({
+                    scrollText: ' ',
+                    topSpeed: 300,
+                    animation: 'fade',
+                    animationInSpeed: 200,
+                    animationOutSpeed: 200,
+                    activeOverlay: false
+                });
+            });
         });
+    </script>
 
-        /* rellax parallax */
-        var rellax = new Rellax('.rellax', {
-            breakpoints: [576, 768, 1201]
+    <script>
+        $(document).ready(function () {
+            /* rellax parallax */
+            var rellax = new Rellax('.rellax', {
+                breakpoints: [576, 768, 1201]
+            });
         });
+    </script>
 
+    <script>
+        $(document).ready(function () {
+            /* filter js */
+            $(document).ready(function () {
+                $('.list').click(function () {
+                    const value = $(this).attr('data-filter');
+                    if (value == 'all') {
+                        $('.itemBox').show('1000');
+                    } else {
+                        $('.itemBox').not('.' + value).hide('1000');
+                        $('.itemBox').filter('.' + value).show('1000');
+                    }
+                })
+
+                $('.list').click(function () {
+                    $(this).addClass('active').siblings().removeClass('active');
+                })
+            });
+        });
+    </script>
+
+    <script>
         /* magnific popup */
         $(document).ready(function () {
             $('.album-items').magnificPopup({
@@ -458,21 +479,7 @@
                 }
             });
         });
-
-        /* scroll up */
-        $(function () {
-            $.scrollUp({
-                scrollText: ' ',
-                topSpeed: 300,
-                animation: 'fade',
-                animationInSpeed: 200,
-                animationOutSpeed: 200,
-                activeOverlay: false
-            });
-        });
-
     </script>
-
 </body>
 
 </html>

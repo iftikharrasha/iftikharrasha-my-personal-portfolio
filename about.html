@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iftikhar Rasha - Portfolio</title>
+    <title>Iftikhar Rasha - About</title>
 
     <!-- jquery cdn -->
-    <link rel="stylesheet" href="assets/css/progresscircle.css">
+    <link rel="stylesheet" href="assets/wowjs/animate.css">
+    <link rel="stylesheet" href="assets/progresscirclejs/progresscircle.css">
 
-
-    <!-- css links -->
+    <!-- fonts links -->
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- fonts awesome kit -->
+    <!-- font awesome kit -->
     <script src="https://kit.fontawesome.com/9dbb72da13.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <!-- preloader -->
+    <!---- preloader starts ---->
     <div id="loading">
         <div id="loading-center">
             <div id="loading-center-absolute">
@@ -33,10 +33,14 @@
             </div>
         </div>
     </div>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <!----- preloader ends ----->
 
+    <!------ header starts ----->
     <header class="header">
         <div class="container">
-            <!-- navbar -->
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand brand" href="index.html"><img src="img/logo.png" class="img-fluid"
                         alt="iftikharrasha">
@@ -52,7 +56,7 @@
                 <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html#home">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="projects.html">Projects</a>
@@ -61,292 +65,316 @@
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="http://iftikharrasha.me/" target="_blank">Download CV</a>
+                            <a class="nav-link" href="#" target="_blank">Download CV</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <!-- navbar -->
         </div>
     </header>
+    <!-------- header ends ------->
 
-    <a class="github" href="https://github.com/iftikharrasha" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+    <!---- github icon starts ---->
+    <a class="github" href="https://github.com/iftikharrasha" target="_blank">
+        <i class="fab fa-github fa-2x"></i>
+    </a>
+    <!------ github icon ends ---->
 
-    <div id="fullPage">
-        <section class="video" data-vide-bg="video/iftikharrasha.mp4">
-        </section>
+    <!---- skill-hero starts ----->
+    <section class="section">
+        <div class="container">
+            <div class="row responsive">
+                <div class="col-md-12">
+                    <div class="skills_section text-center">
+                        <div class="skill-head">
+                            <h1 class="wow fadeInDown" data-wow-delay="0.5s">
+                                Skills & Experience
+                            </h1>
+                            <p>HTML, CSS, JS, building small and medium web applications with php or laravel,
+                                custom plugins, features, animations, and coding interactive layouts. I have
+                                also full-stack developer experience with one of the most popular open
+                                source CMS on the web - WordPress.</p>
+                            <p>Visit my <a href="https://www.linkedin.com/in/iftikharrasha/" target="_blank"
+                                    rel="noopener noreferrer">Linkedin</a> for more details.</p>
+                        </div>
 
-        <section class="section skills">
-            <div class="container">
-                <div class="row responsive">
-                    <div class="col-md-12">
-                        <div class="skills_section text-center">
-                            <div class="skill-head">
-                                <h1 class="font-60">
-                                    skill & experience
-                                </h1>
-                                <p>HTML, CSS, JS, building small and medium web applications with php or laravel,
-                                    custom plugins, features, animations, and coding interactive layouts. I have
-                                    also full-stack developer experience with one of the most popular open
-                                    source CMS on the web - WordPress</p>
-                                <p>Visit my <a href="https://www.linkedin.com/in/tdrdimov/" target="_blank"
-                                        rel="noopener noreferrer">Linkedin</a> for more details.</p>
+                        <div class="skills_brands">
+                            <div class="skill-icon wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                                <i class="fab fa-html5"></i>
+                                <p>Html</p>
                             </div>
+                            <div class="skill-icon wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                <i class="fa fa-css3"></i>
+                                <p>Css3</p>
+                            </div>
+                            <div class="skill-icon wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                                <i class="fab fa-bootstrap"></i>
+                                <p>Bootstrap</p>
+                            </div>
+                            <div class="skill-icon wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                <i class="fab fa-js-square"></i>
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="skill-icon wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
+                                <i class="fa fa-wordpress"></i>
+                                <p>Wordpress</p>
+                            </div>
+                            <div class="skill-icon wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                                <i class="fab fa-php"></i>
+                                <p>PHP</p>
+                            </div>
+                            <div class="skill-icon wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">
+                                <i class="fab fa-git-alt"></i>
+                                <p>Git</p>
+                            </div>
+                            <div class="skill-icon wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                                <i class="fab fa-figma"></i>
+                                <p>Figma</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----- skill-hero ends ------>
 
-                            <div class="skills_brands">
-                                <div class="skill-icon">
-                                    <i class="fab fa-html5"></i>
-                                    <p>Html</p>
+    <!-- progress-circle starts -->
+    <section class="section">
+        <div class="container">
+            <div class="row responsive">
+                <div class="col-md-12">
+                    <div class="skills_section text-center">
+                        <div class="skill-head">
+                            <h1 class="wow fadeInDown" data-wow-delay="0.5s">
+                                My Progress
+                            </h1>
+                            <p>The main area of my skill is the front end development (client side of the web).
+                            </p>
+                        </div>
+
+                        <div class="skills-area">
+                            <div class="single-skill wow bounceIn" data-wow-duration="1s" data-wow-delay=".5s">
+                                <div class="circlechart" data-percentage="92">
+                                    HTML5
                                 </div>
-                                <div class="skill-icon">
-                                    <i class="fa fa-css3"></i>
-                                    <p>Css3</p>
+                            </div>
+                            <div class="single-skill wow bounceIn" data-wow-duration="1s" data-wow-delay=".5s">
+                                <div class="circlechart" data-percentage="90">
+                                    CSS3
                                 </div>
-                                <div class="skill-icon">
-                                    <i class="fab fa-bootstrap"></i>
-                                    <p>Bootstrap</p>
+                            </div>
+                            <div class="single-skill wow bounceIn" data-wow-duration="1s" data-wow-delay=".5s">
+                                <div class="circlechart" data-percentage="85">
+                                    Bootstrap
                                 </div>
-                                <div class="skill-icon">
-                                    <i class="fab fa-js-square"></i>
-                                    <p>JavaScript</p>
-                                </div>
-                                <div class="skill-icon">
-                                    <i class="fa fa-wordpress"></i>
-                                    <p>Wordpress</p>
-                                </div>
-                                <div class="skill-icon">
-                                    <i class="fab fa-php"></i>
-                                    <p>PHP</p>
-                                </div>
-                                <div class="skill-icon">
-                                    <i class="fab fa-git-alt"></i>
-                                    <p>Git</p>
-                                </div>
-                                <div class="skill-icon">
-                                    <i class="fab fa-figma"></i>
-                                    <p>Figma</p>
+                            </div>
+                            <div class="single-skill wow bounceIn" data-wow-duration="1s" data-wow-delay=".5s">
+                                <div class="circlechart" data-percentage="82">
+                                    Js/Jquery
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+    <!--- progress-circle ends --->
 
-        <section class="section skills">
-            <div class="container">
-                <div class="row responsive">
-                    <div class="col-md-12">
-                        <div class="skills_section text-center">
-                            <div class="skill-head">
-                                <h1 class="font-60">
-                                    my progress
-                                </h1>
-                                <p>The main area of expertise is front end development (client side of the web).
-                                </p>
+    <!--- progress-long starts --->
+    <section class="section">
+        <div class="container">
+            <div class="row responsive">
+                <div class="col-md-12">
+                    <div class="skills_section">
+                        <div class="skills-path text-center">
+                            <div class="skill-str">
+                                <div class="skill-name">PHP</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="72"></div>
+                                </div>
                             </div>
 
-                            <div class="skills-area">
-                                <div class="single-skill">
-                                    <div class="circlechart" data-percentage="92">
-                                        HTML5
-                                    </div>
-                                </div>
-                                <div class="single-skill">
-                                    <div class="circlechart" data-percentage="90">
-                                        CSS3
-                                    </div>
-                                </div>
-                                <div class="single-skill">
-                                    <div class="circlechart" data-percentage="85">
-                                        Bootstrap
-                                    </div>
-                                </div>
-                                <div class="single-skill">
-                                    <div class="circlechart" data-percentage="82">
-                                        Js/Jquery
-                                    </div>
+                            <div class="skill-str">
+                                <div class="skill-name">MySQL</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="80"></div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="section skills">
-            <div class="container">
-                <div class="row responsive">
-                    <div class="col-md-12">
-                        <div class="skills_section">
-                            <div class="skills-path text-center">
-                                <div class="skill-str">
-                                    <div class="skill-name">PHP</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" per="72"></div>
-                                    </div>
+                            <div class="skill-str">
+                                <div class="skill-name">Wordpress</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="64"></div>
                                 </div>
+                            </div>
 
-                                <div class="skill-str">
-                                    <div class="skill-name">MySQL</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" per="80"></div>
-                                    </div>
+                            <div class="skill-str">
+                                <div class="skill-name">Github</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="88"></div>
                                 </div>
+                            </div>
 
-                                <div class="skill-str">
-                                    <div class="skill-name">Wordpress</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" per="64"></div>
-                                    </div>
-                                </div>
-
-                                <div class="skill-str">
-                                    <div class="skill-name">Github</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" per="88"></div>
-                                    </div>
-                                </div>
-
-                                <div class="skill-str">
-                                    <div class="skill-name">Figma</div>
-                                    <div class="skill-bar">
-                                        <div class="skill-per" per="82"></div>
-                                    </div>
+                            <div class="skill-str">
+                                <div class="skill-name">Figma</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="82"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+    <!---- progress-long ends ---->
 
-        <section class="section skills">
-            <div class="container">
-                <div class="row responsive">
-                    <div class="col-md-12">
-                        <div class="timeline-items text-center">
-                            <div class="timeline">
-                                <ul>
-                                    <li class="point-one">
-                                        <div class="time">
-                                            <span>June 2020</span>
-                                        </div>
-                                        <div class="content">
-                                            <h3>Works</h3>
-                                            <p>
-                                                Full Stack Web Developer, Shikhbe Shobai
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li class="point-two">
-                                        <div class="time">
-                                            <span>2016- present</span>
-                                        </div>
-                                        <div class="content">
-                                            <h3>University</h3>
-                                            <p>
-                                                North South University<br>
-                                                Bashundhara, Dhaka
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li class="point-three">
-                                        <div class="time">
-                                            <span>2012 - 2015</span>
-                                        </div>
-                                        <div class="content">
-                                            <h3>College</h3>
-                                            <p>
-                                                Noapara Degree College<br>
-                                                Jeshore, Bangladesh
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li class="point-four">
-                                        <div class="time">
-                                            <span>2000 - 2012</span>
-                                        </div>
-                                        <div class="content">
-                                            <h3>School</h3>
-                                            <p>
-                                                Little Jewels School<br>
-                                                Jeshore, Bangladesh
-                                            </p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+    <!----- education starts ----->
+    <section class="section">
+        <div class="container">
+            <div class="row responsive">
+                <div class="col-md-12">
+                    <div class="skill-head text-center">
+                        <h1 class="wow fadeInDown" data-wow-delay="0.5s">
+                            works & education
+                        </h1>
+                    </div>
+                    <div class="timeline-items text-center">
+                        <div class="timeline">
+                            <ul>
+                                <li class="point-one">
+                                    <div class="time">
+                                        <span>June 2020</span>
+                                    </div>
+                                    <div class="content">
+                                        <h3>Works</h3>
+                                        <p>
+                                            Full Stack Web Developer, Shikhbe Shobai
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="point-two">
+                                    <div class="time">
+                                        <span>2016- present</span>
+                                    </div>
+                                    <div class="content">
+                                        <h3>University</h3>
+                                        <p>
+                                            North South University<br>
+                                            Bashundhara, Dhaka
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="point-three">
+                                    <div class="time">
+                                        <span>2012 - 2015</span>
+                                    </div>
+                                    <div class="content">
+                                        <h3>College</h3>
+                                        <p>
+                                            Noapara Degree College<br>
+                                            Jeshore, Bangladesh
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="point-four">
+                                    <div class="time">
+                                        <span>2000 - 2012</span>
+                                    </div>
+                                    <div class="content">
+                                        <h3>School</h3>
+                                        <p>
+                                            Little Jewels School<br>
+                                            Jeshore, Bangladesh
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+    <!------ education ends ------>
 
-        <section class="section contact map">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-4">
+    <!------- video starts ------->
+    <section class="video" data-vide-bg="video/iftikharrashahq.mp4">
+    </section>
+    <!-------- video ends -------->
 
-                    </div>
-                    <div class="col-lg-6 col-md-8">
-                        <div class="modal-form m2-top">
-                            <div class="form-information">
-                                <p>What would you do if you had a web expert
-                                    available at your fingertips?
-                                    <br>send me a, hey.
-                                </p>
-                                <form action="" method="post">
-                                    <div class="information-name">
-                                        <input id="name" type="text" name="query" placeholder="Your Query">
-                                    </div>
+    <!-- contact starts -->
+    <section class="section contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-4">
 
-                                    <div class="information-email">
-                                        <input id="name" type="email" name="query" placeholder="Your Email">
-                                    </div>
-
-                                    <div class="information-submit">
-                                        <input type="submit" name="SUBMIT" value="Send Request">
-                                    </div>
-                                </form>
-                                <p>
-                                    <br>my <span> social handles</span>
-                                </p>
-                            </div>
-                            <div class="form-options">
-                                <div class="social_icon">
-                                    <a href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fab fa-instagram-square" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <div class="modal-form m-pro">
+                        <div class="form-information">
+                            <p>What would you do if you had an experienced web expert
+                                available at your fingertips?
+                                <br><span>send me a, hey.</span>
+                            </p>
+                            <form action="" method="post">
+                                <div class="information-name">
+                                    <input id="name" type="text" name="query" placeholder="Your Query">
                                 </div>
+
+                                <div class="information-email">
+                                    <input id="name" type="email" name="query" placeholder="Your Email">
+                                </div>
+
+                                <div class="information-submit">
+                                    <input type="submit" name="SUBMIT" value="Send">
+                                </div>
+                            </form>
+                            <p>
+                                <br>or <span>connect</span> me at
+
+                            </p>
+                        </div>
+                        <div class="form-options">
+                            <div class="social_icon">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-        </section>
 
-        <section class="section">
-            <footer class="footer ft-pro text-center">
-                <span class="copyright">
-                    ©
-                    <script>document.write(new Date().getFullYear());</script> iftikharrasha.com
-                </span>
-            </footer>
-        </section>
-    </div>
+        </div>
+    </section>
+    <!--- contact ends --->
+
+    <!-- footer starts --->
+    <section class="section fp-auto-height">
+        <footer class="footer f-pro text-center">
+            <span class="copyright">
+                ©
+                <script>document.write(new Date().getFullYear());</script> iftikharrasha.com
+            </span>
+        </footer>
+    </section>
+    <!--- footer ends ---->
 
 
 
-    <!-- js links -->
+    <!----- js links ----->
     <script src="js/jquery-1.12.4.min.js"></script>
+
     <!-- jq plugins -->
-    <script src="assets/js/jquery.scrollUp.min.js"></script>
-    <script src="assets/js/jquery.vide.min.js"></script>
-    <script src="assets/js/progresscircle.js"></script>
+    <script src="assets/wowjs/wow.min.js"></script>
+    <script src="assets/scrollupjs/jquery.scrollUp.min.js"></script>
+    <script src="assets/progresscirclejs/progresscircle.js"></script>
+    <script src="assets/videjs/jquery.vide.min.js"></script>
 
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -354,41 +382,48 @@
 
     <!-- activation codes -->
     <script>
-        /* progress circle */
-        $(function () {
-            $('.circlechart').circlechart();
-        });
-
-        /* progress str */
-        $('.skill-per').each(function () {
-            var $this = $(this);
-            var per = $this.attr('per');
-            $this.css("width", per + '%');
-            $({ animatedValue: 0 }).animate({ animatedValue: per }, {
-                duration: 2000,
-                step: function () {
-                    $this.attr('per', Math.floor(this.animatedValue) + '%');
-                },
-                complete: function () {
-                    $this.attr('per', Math.floor(this.animatedValue) + '%');
-                }
+        $(document).ready(function () {
+            /* scroll up */
+            $(function () {
+                $.scrollUp({
+                    scrollText: ' ',
+                    topSpeed: 300,
+                    animation: 'fade',
+                    animationInSpeed: 200,
+                    animationOutSpeed: 200,
+                    activeOverlay: false
+                });
             });
         });
+    </script>
 
-        /* scroll up */
-        $(function () {
-            $.scrollUp({
-                scrollText: ' ',
-                topSpeed: 300,
-                animation: 'fade',
-                animationInSpeed: 200,
-                animationOutSpeed: 200,
-                activeOverlay: false
+    <script>
+        $(document).ready(function () {
+            /* progress circle */
+            $(function () {
+                $('.circlechart').circlechart();
             });
         });
+    </script>
 
-        /* vide js */
-
+    <script>
+        $(document).ready(function () {
+            /* progress str */
+            $('.skill-per').each(function () {
+                var $this = $(this);
+                var per = $this.attr('per');
+                $this.css("width", per + '%');
+                $({ animatedValue: 0 }).animate({ animatedValue: per }, {
+                    duration: 2000,
+                    step: function () {
+                        $this.attr('per', Math.floor(this.animatedValue) + '%');
+                    },
+                    complete: function () {
+                        $this.attr('per', Math.floor(this.animatedValue) + '%');
+                    }
+                });
+            });
+        });
     </script>
 
 </body>

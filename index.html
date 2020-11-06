@@ -4,18 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iftikhar Rasha - Portfolio</title>
+    <title>Iftikhar Rasha - Home</title>
+
+    <link rel="icon" href="http://www.iftikharrasha.com/img/icon.png" type="image/x-icon">
+    <meta name="description"
+        content="Full-Stack Web Developer, Web-sites design and development, based on your project requirements">
+    <meta name="keywords"
+        content="Website, Fullstack, Wordpress, Developer, Front-end, Bootstrap, PSD to Html, Javascript, Portfolio, Iftikhar Rasha">
+
+    <!-- Facebook Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Iftikhar Rasha | Full-Stack Web Developer">
+    <meta property="og:description"
+        content="Full-Stack Web Developer, Web-sites design and development, based on your project requirements">
+    <meta property="og:site_name" content="Iftikhar Rasha | Full-Stack Web Developer">
+    <meta property="og:image" content="http://www.iftikharrasha.com/img/ir-thumb.jpg">
+    <meta property="og:image:alt"
+        content="Full-Stack Web Developer, Web-sites design and development, based on your project requirements">
+    <meta property="og:image:width " content="1080">
+    <meta property="og:image:height" content="564">
+    <meta property="og:locale" content="en_US">
 
     <!-- jquery cdn -->
-    <link rel="stylesheet" href="assets/css/slick-theme.min.css">
-    <link rel="stylesheet" href="assets/css/slick.min.css">
-    <link rel="stylesheet" href="assets/css/fullpage.min.css">
-    <link rel="stylesheet" href="assets/css/glider.min.css">
+    <link rel="stylesheet" href="assets/wowjs/animate.css">
+    <link rel="stylesheet" href="assets/fullpagejs/fullpage.min.css">
+    <link rel="stylesheet" href="assets/slickjs/slick.css">
+    <link rel="stylesheet" href="assets/slickjs/slick-theme.css">
+    <link rel="stylesheet" href="assets/gliderjs/glider.min.css">
 
-    <!-- css links -->
+    <!-- fonts links -->
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- fonts awesome kit -->
+    <!-- font awesome kit -->
     <script src="https://kit.fontawesome.com/9dbb72da13.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -23,7 +43,7 @@
 </head>
 
 <body>
-    <!-- preloader -->
+    <!---- preloader starts ---->
     <div id="loading">
         <div id="loading-center">
             <div id="loading-center-absolute">
@@ -35,16 +55,16 @@
             </div>
         </div>
     </div>
-
     <div class="loader-wrapper">
         <span class="loader"><span class="loader-inner"></span></span>
     </div>
+    <!----- preloader ends ----->
 
+    <!------ header starts ----->
     <header class="header">
         <div class="container">
-            <!-- navbar -->
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand brand" href="index.html#home"><img src="img/logo.png" class="img-fluid"
+                <a class="navbar-brand brand" href="index.html"><img src="img/logo.png" class="img-fluid"
                         alt="iftikharrasha">
                 </a>
                 <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
@@ -72,66 +92,74 @@
                     </ul>
                 </div>
             </nav>
-            <!-- navbar -->
         </div>
     </header>
+    <!-------- header ends ------->
 
-    <a class="github" href="https://github.com/iftikharrasha" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+    <!---- github icon starts ---->
+    <a class="github" href="https://github.com/iftikharrasha" target="_blank">
+        <i class="fab fa-github fa-2x"></i>
+    </a>
+    <!------ github icon ends ---->
 
+    <!------ fullpage starts ----->
     <div id="fullPage">
+
+        <!------ hero starts ----->
         <section class="section hero">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="hero-me">
-                            <img src="img/rasha.png" alt="rasha">
-                            <h1>Full Stack Web Developer<br>{I <span class="element"></span>}</h1>
-
+                            <img class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".1s" src="img/rasha.png"
+                                alt="rasha">
+                            <h2>{I <span class="element"></span>}</h2>
+                            <h1>Full Stack Web Developer</h1>
                             <p>Resolving design problems, building smart user interfaces and useful interactions,
                                 developing
                                 rich web applications and seamless web experience.<br><br>
-
                             </p>
 
-                            <a href="#works" class="styled_button">My Works</a>
+                            <a href="#works" class="styled_button wow fadeInDown" data-wow-delay="0.5s">My Works</a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="hero-page">
                             <img class="page" src="img/page.png" alt="page">
-                            <img class="pen" src="img/03-pen.webp" alt="pen">
-                            <img class="rubic rubic-purp" src="img/purple.png" alt="purpcube">
-                            <img class="rubic rubic-white" src="img/white.png" alt="whitecube">
-                            <!--<p class="typing"><span class="element"></span></p>-->
+                            <img class="pen" src="img/pen.png" alt="pen">
                         </div>
                     </div>
+                    <img class="rubic rubic-purp" src="img/purple.png" alt="purpcube">
+                    <img class="rubic rubic-white" src="img/white.png" alt="whitecube">
                 </div>
             </div>
         </section>
+        <!------ hero ends ----->
 
+        <!--- service starts --->
         <section class="section what-can">
             <div class="container counter-sec">
                 <div class="counts">
                     <div class="row">
-                        <div class="col-md-3">
-                            <div class="count-item c-white">
+                        <div class="col-sm-3">
+                            <div class="count-item text-white">
                                 <h3>PROJECTS<br>DONE</h3>
                                 <p class="count">5</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="count-item c-white">
+                        <div class="col-sm-3">
+                            <div class="count-item text-white">
                                 <h3>COFFEE<br>INTAKEN </h3>
                                 <p class="count">321</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-sm-3">
                             <div class="count-item">
                                 <h3>HOURS OF<br>SLEEP GONE </h3>
                                 <p class="count">553</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-sm-3">
                             <div class="count-item">
                                 <h3>LIES<br>TOLD </h3>
                                 <p>None</p>
@@ -143,10 +171,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="float floating">
+                        <div class="floating">
                             <img src="img/space.png" alt="spaceman">
                         </div>
-                        <div class="shadow">
+                        <div class="shadows">
                             <img src="img/shadow.png" alt="spaceman">
                         </div>
                     </div>
@@ -163,12 +191,10 @@
                                                 </div>
                                             </div>
                                             <div class="col-9">
-                                                <div class="card_text">
-                                                    <h3>Web design and dev</h3>
-                                                    <p>Web-sites development, based on our individual CMS for different
-                                                        projects
-                                                    </p>
-                                                </div>
+                                                <h3>Web design and dev</h3>
+                                                <p>Web-sites design and development, based on your
+                                                    projects
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -182,12 +208,9 @@
                                                 </div>
                                             </div>
                                             <div class="col-9">
-                                                <div class="card_text">
-                                                    <h3>UX\UI design</h3>
-                                                    <p>User interface and experience design for your applications or
-                                                        software
-                                                    </p>
-                                                </div>
+                                                <h3>UX\UI design</h3>
+                                                <p>User interface and experience design for your applications
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -197,15 +220,14 @@
                                         <div class="row">
                                             <div class="col-3">
                                                 <div class="card_icon">
-                                                    <i class="fab fa-android fa-2x"></i>
+                                                    <i class="fa fa-wordpress fa-2x"></i>
                                                 </div>
                                             </div>
                                             <div class="col-9">
-                                                <div class="card_text">
-                                                    <h3>Webview apps</h3>
-                                                    <p>Your customers will choose your services again and again
-                                                    </p>
-                                                </div>
+                                                <h3>Wordpress Sites</h3>
+                                                <p>E-commerce sites to individual CMS for for your
+                                                    customers
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -219,41 +241,37 @@
                                                 </div>
                                             </div>
                                             <div class="col-9">
-                                                <div class="card_text">
-                                                    <h3>Design</h3>
-                                                    <p>logos, covers, avatars for social pages, baners etc
-                                                    </p>
-                                                </div>
+                                                <h3>Logo Design</h3>
+                                                <p>logos, covers, avatars for social pages, baners etc
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#contact" class="styled_button">Hire Me</a>
+                            <div class="hire-me">
+                                <a href="#contact" class="styled_button">Hire Me</a>
+                            </div>
                         </div>
                     </div>
                 </div>
         </section>
+        <!---- service ends ---->
 
+        <!---- works starts ---->
         <section class="section works">
             <div class="container">
                 <div class="row responsive">
-                    <!-- <div class="col-md-3 text-center">
-                            <div class="title">
-                                <p>VINTAGE</p>
-                            </div>
-                        </div>-->
                     <div class="col-md-12 text-center">
                         <div class="products-tabs">
                             <div class="product-img">
                                 <img src="img/retro.png" alt="retro">
-
                             </div>
                             <h3 class="product-name">Retro an old style vintage portfolio
                             </h3>
-
-                            <a href="retro.iftikharrasha.com" class="styled_button">Live Demo</a>
-                            <a href="projects.html" class="styled_button sb">View More</a>
+                            <a href="http://retro.iftikharrasha.com/" target="_blank" class="styled_button">Live
+                                Demo</a>
+                            <a href="projects.html" class="styled_button ml-4">View More</a>
                         </div>
                     </div>
 
@@ -261,13 +279,12 @@
                         <div class="products-tabs">
                             <div class="product-img">
                                 <img src="img/tinyone.png" alt="vertexwin">
-
                             </div>
                             <h3 class="product-name">Tinyone - PSD to Bootstrap
                             </h3>
-
-                            <a href="tinyone.iftikharrasha.com" class="styled_button">Live Demo</a>
-                            <a href="projects.html" class="styled_button sb">View More</a>
+                            <a href="http://tinyone.iftikharrasha.com/" target="_blank" class="styled_button">Live
+                                Demo</a>
+                            <a href="projects.html" class="styled_button ml-4">View More</a>
                         </div>
                     </div>
 
@@ -275,13 +292,12 @@
                         <div class="products-tabs">
                             <div class="product-img">
                                 <img src="img/minimo.png" alt="retro">
-
                             </div>
                             <h3 class="product-name">Minimo - A Minimal Template
                             </h3>
-
-                            <a href="minimo.iftikharrasha.com" class="styled_button">Live Demo</a>
-                            <a href="projects.html" class="styled_button sb">View More</a>
+                            <a href="http://minimo.iftikharrasha.com/" target="_blank" class="styled_button">Live
+                                Demo</a>
+                            <a href="projects.html" class="styled_button ml-4">View More</a>
                         </div>
                     </div>
 
@@ -293,22 +309,18 @@
                             </div>
                             <h3 class="product-name">Vertexwin - A machineries Website
                             </h3>
-
-                            <a href="#vertexwin" class="styled_button">Live Demo</a>
-                            <a href="projects.html" class="styled_button sb">View More</a>
+                            <a href="#vertexwin" target="_blank" class="styled_button">Live Demo</a>
+                            <a href="projects.html" class="styled_button ml-4">View More</a>
                         </div>
                     </div>
-
-
                 </div>
-
             </div>
-
         </section>
+        <!----- works ends ----->
 
+        <!--- review starts ---->
         <section class="section testimonials">
             <div class="container">
-                <h2 class="test">User Testimonials</h2>
                 <div class="reviews">
 
                     <div class="row">
@@ -322,54 +334,57 @@
 
                                 <div class="glider">
                                     <figure class="figure">
-                                        <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-                                            suscipit maiores qui? Lorem ipsum, dolor sit amet consectetur adipisicing
-                                            elit. Vero, rerum? Lorem ipsum dolor sit amet. "</blockquote>
-                                        <div class="cd-author">
+                                        <blockquote>"I’ve made several purchases from Rasha including a minty
+                                            Leicameter. Each time, I’ve been treated like an old friend. No matter if I
+                                            call or email, no matter how busy the shop is, they are patient, helpful."
+                                        </blockquote>
+                                        <div class="author">
                                             <img src="https://i.ibb.co/KxGXk3Z/94951537-1066403760396805-3121804190347689984-n.jpg"
                                                 alt="Author image">
-                                            <p class="cd-author-info">John Smith</p>
+                                            <p class="author-info">John Smith, CEO</p>
                                         </div>
                                     </figure>
                                     <figure class="figure">
-                                        <blockquote>"I’ve made several purchases from Tamarkin including a minty
+                                        <blockquote>"I’ve made several purchases from Rasha including a minty
                                             Leicameter. Each time, I’ve been treated like an old friend. No matter if I
                                             call or email, no matter how busy the shop is, they are patient, helpful"
                                         </blockquote>
-                                        <div class="cd-author">
+                                        <div class="author">
                                             <img src="https://i.ibb.co/RPfP1R8/24013bc1f2de3be34f0421229e5401b1.jpg"
                                                 alt="Author image">
-                                            <p class="cd-author-info">John Smith</p>
+                                            <p class="author-info">John Smith, Businessman</p>
                                         </div>
                                     </figure>
                                     <figure class="figure">
-                                        <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-                                            suscipit maiores qui? Lorem ipsum, dolor sit amet consectetur adipisicing
-                                            elit. Vero, rerum? Lorem ipsum dolor sit amet."</blockquote>
-                                        <div class="cd-author">
+                                        <blockquote>"I’ve made several purchases from Rasha including a minty
+                                            Leicameter. Each time, I’ve been treated like an old friend. No matter if I
+                                            call or email, no matter how busy the shop is, they are patient, helpful."
+                                        </blockquote>
+                                        <div class="author">
                                             <img src="https://i.ibb.co/M7TmQSB/fe6509b2140af2431215efc71cb0bf55.jpg"
                                                 alt="Author image">
-                                            <p class="cd-author-info">John Smith</p>
+                                            <p class="author-info">John Smith, CEO</p>
                                         </div>
                                     </figure>
                                     <figure class="figure">
-                                        <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-                                            suscipit maiores qui? Lorem ipsum, dolor sit amet consectetur adipisicing
-                                            elit. Vero, rerum? Lorem ipsum dolor sit amet."</blockquote>
-                                        <div class="cd-author">
+                                        <blockquote>"I’ve made several purchases from Rasha including a minty
+                                            Leicameter. Each time, I’ve been treated like an old friend. No matter if I
+                                            call or email, no matter how busy the shop is, they are patient, helpful."
+                                        </blockquote>
+                                        <div class="author">
                                             <img src="https://i.ibb.co/KxGXk3Z/94951537-1066403760396805-3121804190347689984-n.jpg"
                                                 alt="Author image">
-                                            <p class="cd-author-info">John Smith</p>
+                                            <p class="author-info">John Smith, Businessman</p>
                                         </div>
                                     </figure>
                                     <figure class="figure">
                                         <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
                                             suscipit maiores qui? Lorem ipsum, dolor sit amet consectetur adipisicing
                                             elit. Vero, rerum? Lorem ipsum dolor sit amet."</blockquote>
-                                        <div class="cd-author">
+                                        <div class="author">
                                             <img src="https://i.ibb.co/RPfP1R8/24013bc1f2de3be34f0421229e5401b1.jpg"
                                                 alt="Author image">
-                                            <p class="cd-author-info">John Smith</p>
+                                            <p class="author-info">John Smith, CEO</p>
                                         </div>
                                     </figure>
                                 </div>
@@ -385,7 +400,9 @@
                 </div>
             </div>
         </section>
+        <!--- review ends ---->
 
+        <!-- contact starts -->
         <section class="section contact">
             <div class="container">
                 <div class="row">
@@ -395,9 +412,9 @@
                     <div class="col-lg-6 col-md-8">
                         <div class="modal-form">
                             <div class="form-information">
-                                <p>What would you do if you had a web expert
+                                <p>What would you do if you had an experienced web expert
                                     available at your fingertips?
-                                    <br>send me a, hey.
+                                    <br><span>send me a, hey.</span>
                                 </p>
                                 <form action="" method="post">
                                     <div class="information-name">
@@ -409,21 +426,20 @@
                                     </div>
 
                                     <div class="information-submit">
-                                        <input type="submit" name="SUBMIT" value="Send Request">
+                                        <input type="submit" name="SUBMIT" value="Send">
                                     </div>
                                 </form>
                                 <p>
-                                    <br>my <span><a href="https://www.linkedin.com/in/tdrdimov/" target="_blank"
-                                            rel="noopener noreferrer">social handles</a></span>
+                                    <br>or <span>connect</span> me at
 
                                 </p>
                             </div>
                             <div class="form-options">
                                 <div class="social_icon">
-                                    <a href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fab fa-instagram-square" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 
                                 </div>
                             </div>
@@ -433,8 +449,10 @@
 
             </div>
         </section>
+        <!--- contact ends --->
 
-        <section class="section fp-auto-height" id="section6">
+        <!-- footer starts --->
+        <section class="section fp-auto-height">
             <footer class="footer text-center">
                 <span class="copyright">
                     ©
@@ -442,134 +460,151 @@
                 </span>
             </footer>
         </section>
+        <!--- footer ends ---->
+
     </div>
+    <!------- fullpage ends ------>
 
-
-
-    <!-- js links -->
-    <script src="js/jquery-3.5.1.min.js"></script>
+    <!------- js links ------>
     <script src="js/jquery-1.12.4.min.js"></script>
-    <!-- jq plugins -->
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/typed.min.js"></script>
-    <script src="assets/js/fullpage.min.js"></script>
-    <script src="assets/js/glider.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
+
+    <!-------- plugins ------>
+    <script src="assets/wowjs/wow.min.js"></script>
+    <script src="assets/fullpagejs/fullpage.min.js"></script>
+    <script src="assets/typedjs/typed.min.js"></script>
+    <script src="assets/counterjs/waypoints.min.js"></script>
+    <script src="assets/counterjs/jquery.counterup.min.js"></script>
+    <script src="assets/slickjs/slick.min.js"></script>
+    <script src="assets/gliderjs/glider.min.js"></script>
+
 
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 
-    <!-- activation codes -->
+    <!------- activation codes ---->
     <script>
-        /* counter plugin */
-        $('.count').counterUp({
-            delay: 1,
-            time: 2000
+        $(document).ready(function () {
+            /* counter plugin */
+            $('.count').counterUp({
+                delay: 10,
+                time: 2000
+            });
         });
-
-        /* typed plugin */
-        var typed = new Typed('.element', {
-            strings: [
-                'think.',
-                'desing.',
-                'develope.'
-            ],
-            typeSpeed: 60,
-            backSpeed: 60,
-            loop: true
-        });
-
-        /* glider plugin */
-        new Glider(document.querySelector('.glider'), {
-            duration: 0.99,
-            dots: '#dots',
-            slidesToScroll: 1,
-            draggable: true,
-            arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
-            },
-            responsive: [{
-                breakpoint: 820,
-                settings: {
-                    slidesToScroll: 1,
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 750,
-                settings: {
-                    slidesToScroll: 1,
-                    slidesToShow: 1
-                }
-            },
-            {
-                breakpoint: 550,
-                settings: {
-
-                    slidesToScroll: 1,
-                    slidesToShow: 1,
-                }
-            }]
-        });
-
-        /* Slick plugin */
-        $('.responsive').slick({
-            dots: true,
-            arrows: true,
-            infinite: true,
-            autoplay: true,
-            autoplaySpeed: 3000,
-            speed: 700,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        dots: true,
-                        arrows: false,
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-            ]
-        });
-
-
-        /* fullpage plugin */
-        new fullpage('#fullPage', {
-            animateAnchor: false,
-            css3: true,
-            autoScrolling: true,
-            navigation: true,
-            bigSectionsDestination: top,
-            anchors: ['home', 'services', 'works', 'testimonials', 'contact', 'credit'],
-            navigationTooltips: ['Home', 'Services', 'Works', 'Testimonials', 'Contact', 'Credit'],
-            showActiveTooltip: true,
-            scrollingSpeed: 1000,
-        });
-
     </script>
+    <script>
+        $(document).ready(function () {
+            /* fullpage plugin */
+            new fullpage('#fullPage', {
+                animateAnchor: false,
+                css3: true,
+                autoScrolling: true,
+                navigation: true,
+                bigSectionsDestination: top,
+                anchors: ['home', 'services', 'works', 'reviews', 'contact', 'credit'],
+                navigationTooltips: ['Home', 'Services', 'Works', 'Reviews', 'Contact', 'Credit'],
+                showActiveTooltip: true,
+                scrollingSpeed: 1000,
+                responsiveWidth: 768,
+                responsiveHeight: 600
 
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            /* typed plugin */
+            var typed = new Typed('.element', {
+                strings: [
+                    'think.',
+                    'desing.',
+                    'develop.'
+                ],
+                typeSpeed: 60,
+                backSpeed: 60,
+                loop: true
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            /* Slick plugin */
+            $('.responsive').slick({
+                dots: true,
+                arrows: true,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                speed: 700,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            dots: true,
+                            arrows: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            /* glider plugin */
+            new Glider(document.querySelector('.glider'), {
+                duration: 0.5,
+                dots: '#dots',
+                slidesToScroll: 1,
+                draggable: true,
+                dragVelocity: 1.0,
+                arrows: {
+                    prev: '.glider-prev',
+                    next: '.glider-next'
+                },
+                responsive: [{
+                    breakpoint: 820,
+                    settings: {
+                        slidesToScroll: 1,
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 750,
+                    settings: {
+                        slidesToScroll: 1,
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 550,
+                    settings: {
+                        slidesToScroll: 1,
+                        slidesToShow: 1,
+                    }
+                }]
+            });
+        });
+    </script>
 </body>
 
 </html>

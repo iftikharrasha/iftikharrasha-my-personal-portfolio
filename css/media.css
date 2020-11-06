@@ -1,12 +1,43 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-	/*-----------header starts-----------*/
-	.brand{
+	/*********** fullpage starts **********/
+	.fp-tableCell {
+		height: auto!important;
+		padding: 0;
+	}
+	/*********** fullpage ends ************/
+
+	/*********** header starts ************/
+	.brand {
 		width: 70%;
 	}
 
+	.header {
+		padding: 10px 0;
+	}
+
+	.sticky {
+		padding: 0;
+	}
+
+	.menu ul li a {
+		padding: 10px 15px !important;
+		text-align: center;
+	}
+
+	.menu ul li:last-child a {
+		width: 60%;
+		margin: 0 auto;
+	}
+	/************* header ends ************/
+
+	/************* hero starts ************/
+	.hero {
+		background: linear-gradient(110deg, white 40%, rgb(129, 86, 252) 40%);
+	}
+
 	.hero-me {
-		margin-top: 0px;
+		margin-top: 60px;
 	}
 
 	.hero-me h1 {
@@ -14,405 +45,1028 @@
 		font-size: 18px;
 	}
 
-	.hero-me p {
+	.hero-me img {
+		width: 40%;
+		margin: 0 0 7px 0;
+	}
+
+	.hero-me h2 {
 		font-size: 14px;
+		padding-left: 8%;
+		margin-bottom: 10px;
 	}
 
-	.hero-page .rubic-purp {
+	.hero-me p {
+		word-spacing: 0; 
+		padding: 20px 20px 0 20px;
+		text-indent: 23px;
+		font-size: 15px;
+	}
+	
+	.hero-page{
+		text-align: center;
+		margin-top: 45px;
+	}
+
+	.hero-page{
+		display: none;
+	}
+
+	.hero-page .pen{
+		top: 35%;
+	}
+
+	.hero .rubic-purp {
 		max-width: 130px;
-		top: 40px;
+		top: 34%;
+		left: 58%;
 	}
 
-	.hero-page .rubic-white {
-		max-width: 95px;
-		top: 500px;
-		right: 7px;
+	.hero .rubic-white {
+		max-width: 84px;
+		top: 43%;
+		right: 22%;
+	}
+
+	.hero .rubic-white {
+		display: none;
+	}
+
+	.github{
+		display: none;
+	}
+	/************* hero ends **************/
+
+	/*********** service starts ***********/
+	.what-can {
+		background: linear-gradient(90deg, rgb(129, 86, 252) 100%, white 100%);
 	}
 
 	.counter-sec {
-		background: linear-gradient(90deg, rgb(129, 86, 252) 20%, white 20%);
+		background: linear-gradient(90deg, rgb(129, 86, 252) 25%, white 25%);
 	}
 
 	.counts {
+		padding: 35px 0;
+	}
+
+	.count-item {
+		width: 50%;
+		margin: 0 auto;
 		padding: 20px;
-		text-align: center;
-	}
-
-	.c-white {
-		color: #000000;
-	}
-
-	.what-can {
-		background: linear-gradient(90deg, rgb(129, 86, 252) 100%, white 110%);
 		color: black;
 	}
 
-	.float{
+	.text-white {
+		color: black !important;
+	}
+
+	.count-item p {
+		font-size: 34px;
+		margin-bottom: 0;
+	}
+
+	.count-item h3 {
+		font-size: 24px;
+	}
+
+	.floating img {
 		display: none;
 	}
 
-	.shadow{
+	.shadows img {
 		display: none;
-	}
-
-	.typing {
-		position: absolute;
-		top: 370px;
-		left: 110px;
-		font-size: 20px;
-		color: black;
 	}
 
 	.what-items {
-		padding-bottom: 40px;
+		margin: 40px 0 0 15px;
 	}
 
 	.what-items h2 {
-		font-size: 30px;
+		font-size: 28px;
+		margin-left: 2%;
 	}
 
 	.single-icon {
-		margin-top: 20px;
+		margin-top: 18px;
+	}
+
+	.single-icon h3 {
+		font-size: 20px;
+		color: white;
+	}
+
+	.single-icon p {
+		font-size: 15px;
+	}
+
+	.card_icon {
+		font-size: 20px;
+		margin-top: 3px;
+		text-align: center;
 	}
 
 	.card_icon i {
-		color: #e8e3f3;
-		font-size: 45px;
+		color: #ffffff;
 	}
 
-	.testimonials h2 {
-		color: black;
+	.hire-me {
+		margin: 25px 0 50px 15px;
 	}
-	
-	.modal-form{
-		width: 100%;
+	/*********** service ends ***********/
+
+	/*********** works starts ***********/
+	.products-tabs {
+		width: 80%;
+		margin-top: 140px;
 	}
-	
+
+	.product-name {
+		font-size: 22px;
+	}
+
+	.styled_button {
+		font-size: 14px;
+	}
+
+	.slick-next {
+		right: 0px;
+	}
+
+	.slick-prev {
+		left: 0;
+	}
+	/************ works ends ************/
+
+	/*********** review starts ***********/
+	.testimonials {
+		background: linear-gradient(60deg, rgb(129, 86, 252) 62%,white 62%);
+	}
+
+	.reviews {
+		margin: 180px 0;
+	}
+
 	.reviews::before {
-		font-size: 50px;
+		font-size: 60px;
+		top: 10%;
 	}
 
 	.reviews::after {
-		font-size: 50px;
-		bottom: 65px;
+		font-size: 60px;
+		bottom: 8%;
+		color: black;
 	}
 
-	.sm-none{
+	.figure {
+	    margin: 0;
+	}
+
+	.glider-dots {
 		display: none;
 	}
+	/************ review ends ************/
 
-	#fp-nav.fp-right {
-		right: 17px;
-		display: none;
+	/********** contact starts ***********/
+	.contact {
+		background-image: none;
+	  }
+
+	.modal-form {
+		width: 100%;
+		margin-top: 160px;
 	}
+	/*********** contact ends ************/
 
-	.parallax-items{
-		display: none;
+	/*********** footer starts ***********/
+	.footer {
+		height: auto;
 	}
+	/************ footer ends ************/
 
+	/******** project hero starts ********/
 	.phero-text h4 {
 		padding-top: 100%;
 		font-size: 45px;
 	}
 
+	.parallax-items .ruler {
+		top: 45%;
+		width: 30px;
+	}
+
+	.parallax-items .marksemi {
+		top: 30%;
+		width: 10px;
+	}
+
+	.parallax-items .markbold {
+		right: 10%;
+		width: 15px;
+	}
+	/********* project hero ends *********/
+
+	/******** all projects starts ********/
 	.project-item1 {
+		background: rgb(129, 86, 252);
+		min-height: 100vh;
+	}
+	
+	.project-item2 {
 		background: white;
 	}
 
-	.project-item2 {
-		background: linear-gradient(90deg, rgb(129, 86, 252) 100%, white 100%);
-	}
-
 	.project-tabs {
-		padding: 50px 0;
-	}
-
-	.project-img {
-		margin-top: 0px;
+		padding: 40px 0 0 0;
 	}
 
 	.project-img img {
-		padding-top: 0px;
-		padding-left: 0px;
+		padding-top: 0;
+		padding-left: 0;
 	}
 
+	.p-width {
+		margin-top: 0;
+	}
+
+	.project-tabs h3{
+		font-size: 24px;
+	}
+
+	.project_icon i {
+		font-size: 40px;
+	}
+	/******** all projects starts ********/
+
+	/**********  allbum starts *********/
 	.album-ul {
 		display: block;
 		margin-left: 0;
 		margin-top: 0;
 	}
+	
+	.album-items {
+		margin-left: 0;
+	}
+	/***********  allbum ends **********/
 
+	/********  skill-hero starts *******/
 	.skill-head {
-		margin: 50px 0;
-	}	
+		margin: 40px 0;
+	}
 
 	.skill-head h1 {
-		font-size: 30px;
+		font-size: 35px;
 	}
 
 	.skill-icon {
 		width: 50%;
 	}
-	
+
 	.skill-icon i {
 		font-size: 70px;
 	}
+	/*********  skill-hero ends ********/
 
+	/*****  progress-circle starts *****/
 	.single-skill {
 		width: 50%;
+		margin-top: 20px;
+	}
+
+	.skills_section {
+		margin-bottom: 20px;
 	}
 
 	.circle-chart {
-		width: 130px;
-		height: 130px;
+		width: 135px;
+		height: 135px;
 	}
+	/*****  progress-circle ends *****/
 
-    /*------------header ends-------------*/
+	/*****  progress-long starts *****/
+	.skills-path {
+		width: 80%;
+	}
+	/******  progress-long ends ******/
+
+	/*******  education starts *******/
+	.timeline-items{
+		width:100%;
+		min-height:100vh;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		margin: 80px 0;
+		margin-bottom: 0;
+	  }
+	
+		.timeline{
+			width:80%;
+			margin:0px auto;
+		}
+		.timeline:before {
+			left: 10px;
+			height: 760px;
+		}
+		.timeline ul li{
+			width:100%;
+			padding:3px 0px 40px 20px;
+			cursor:pointer;
+		}
+		.timeline ul li:nth-child(even):before{
+			left:-6px;
+		}
+		.timeline ul li:nth-child(odd):before{
+			left:-6px;
+		}
+		.timeline ul li:nth-child(even){
+			float:left;
+			text-align:left;
+		}
+		.timeline ul li:nth-child(odd){
+			float:left;
+			text-align:left;
+		}
+
+		.timeline ul li:nth-child(odd) .time{
+			position:static;
+			text-align:left;
+			padding-left:5px;
+			box-shadow:0px 0px 0px 0px ;
+		}
+		.timeline ul li:nth-child(even) .time{
+			position:static;
+			text-align:left;
+			padding-left:5px;
+			box-shadow:0px 0px 0px 0px ;
+		}
+
+		.timeline ul .point-two .time {
+			width: 125px;
+		}
+	/*******  education starts *******/
+
+	/*********  video starts *********/
+		.video{
+			display: none;
+		}
+	/**********  video ends **********/
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+	/*********** fullpage starts **********/
+	.fp-tableCell {
+		height: auto!important;
+		padding: 0;
+	}
+	/*********** fullpage ends ************/
+
+	/*********** header starts ************/
+	.header {
+		padding: 10px 0;
+	}
+
+	.sticky {
+		padding: 0;
+	}
+
+	.menu ul li a {
+		padding: 10px 15px !important;
+		text-align: center;
+	}
+
+	.menu ul li:last-child a {
+		width: 60%;
+		margin: 0 auto;
+	}
+	/************* header ends ************/
+
+	/************* hero starts ************/
+	.hero {
+		background: linear-gradient(110deg, white 43%, rgb(129, 86, 252) 43%);
+	}
+
+	.hero-me {
+		margin-top: 40px;
+	}
+
+	.hero-me img {
+		width: 34%;
+		margin: 20px;
+		margin-bottom: 5px;
+	}
+
+	.hero-me h2 {
+		padding-left: 11%;
+	}
+
+	.hero-me h1 {
+		width: 63%;
+	}
 	
+	.hero .rubic-purp {
+		max-width: 150px;
+		top: 39%;
+		left: 57%;
+	}
+
+	.hero-page{
+		display: none;
+	}
+
+	.hero .rubic-white {
+		display: none;
+	}
+	
+	.github{
+		display: none;
+	}
+	/************* hero ends ************/
+
+	/*********** service starts ***********/
+	.what-can {
+		background: linear-gradient(90deg, rgb(129, 86, 252) 15%, white 15%);
+	}
+
+	.counts {
+		padding: 35px 0;
+	}
+
+	.count-item p {
+		font-size: 30px;
+		margin-bottom: 0;
+	}
+
+	.count-item h3 {
+		font-size: 17px;
+	}
+
+	.floating img {
+		display: none;
+	}
+
+	.shadows img {
+		display: none;
+	}
+
+	.what-items {
+		margin: 20px 0 0 15px;
+	}
+
+	.what-items h2 {
+		font-size: 28px;
+		margin-left: 5%;
+	}
+
+	.single-icon {
+		margin-top: 18px;
+	}
+
+	.single-icon h3 {
+		font-size: 20px;
+	}
+
+	.single-icon p {
+		font-size: 14px;
+	}
+
+	.card_icon {
+		font-size: 20px;
+		margin-top: 3px;
+		text-align: center;
+	}
+
+	.hire-me {
+		margin: 25px 0 50px 15px;
+	}
+	/*********** service ends ***********/
+
+	/*********** works starts ***********/
+	.works {
+		background: linear-gradient(60deg, white 65%,rgb(129, 86, 252) 65%);
+	}
+
+	.products-tabs {
+		width: 80%;
+		margin-top: 120px;
+	}
+
+	.slick-next {
+		right: 0px;
+	}
+
+	.slick-prev {
+		left: 0;
+	}
+	/************ works ends ************/
+
+	/*********** review starts ***********/
+	.testimonials {
+		background: linear-gradient(60deg, rgb(129, 86, 252) 53%,white 53%);
+	}
+
+	.reviews::before {
+		font-size: 60px;
+	}
+
+	.reviews::after {
+		font-size: 60px;
+		bottom: 20%;
+	}
+	/************ review ends ************/
+
+	/********** contact starts ***********/
+	.modal-form {
+		width: 95%;
+		margin-top: 175px;
+	}
+	/*********** contact ends ************/
+
+	/*********** footer starts ***********/
+	.footer {
+		height: auto;
+	}
+	/************ footer ends ************/
+
+	/******** project hero starts ********/
+	.phero-text h4 {
+		padding-top: 75%;
+		font-size: 80px;
+	}
+
+	.parallax-items .ruler {
+		top: 26%;
+		width: 35px;
+	}
+	/********* project hero ends *********/
+
+	/******** all projects starts ********/
+	.project-item1 {
+		background: rgb(129, 86, 252);
+	}
+
+	.project-item2 {
+		background: white;
+	}
+
+	.project-tabs {
+		padding: 40px 0 0 0;
+	}
+
+	.project-img img {
+		padding-top: 0;
+		padding-left: 0;
+	}
+
+	.p-width {
+		margin-top: 0;
+	}
+	/******** all projects starts ********/
+
+	/**********  allbum starts *********/
+	.album-ul {
+		margin-left: 0;
+	}
+	
+	.album-items {
+		margin-left: 0;
+	}
+
+	.con-sm {
+		max-width: 640px;
+	}
+	/***********  allbum ends **********/
+
+	/********  skill-hero starts *******/
+	.skill-head {
+		margin: 40px 0;
+	}
+
+	.skill-head h1 {
+		font-size: 50px;
+	}
+	/*********  skill-hero ends ********/
+
+	/*****  progress-circle starts *****/
+	.single-skill {
+		width: 50%;
+		margin-top: 20px;
+	}
+	/*****  progress-circle ends *****/
+
+	/*****  progress-long starts *****/
+	.skills-path {
+		width: 80%;
+	}
+	/******  progress-long ends ******/
+
+	/*******  education starts *******/
+	.timeline:before {
+		left: 49%;
+		bottom: 20px;
+	}
+
+	.timeline-items {
+		margin: 60px 0;
+	}
+
+	.timeline ul .point-one .time {
+		right: 20%;
+	}
+
+	.timeline ul .point-two .time {
+		left: 8%;
+	}
+
+	.timeline ul .point-three .time {
+		right: 20%;
+	}
+
+	.timeline ul .point-four .time {
+		left: 17%;
+	}
+	/*******  education starts *******/
+
+	/*********  video starts *********/
+	.video{
+		display: none;
+	}
+	/**********  video ends **********/
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-	.hero {
-		background: linear-gradient(110deg, white 33%, rgb(129, 86, 252) 33%);
+	/************* header starts ************/
+	.menu ul li a {
+		padding: 10px 15px !important;
+		text-align: center;
 	}
 
+	.menu ul li:last-child a {
+		width: 35%;
+		margin: 0 auto;
+	}
+	/************* header ends ************/
+
+	/************* hero starts ************/
 	.hero-me {
-		margin-top: 0px;
+		margin-top: 40px;
+	}
+
+	.hero-me img {
+		width: 45%;
 	}
 
 	.hero-me h1 {
-		width: 69%;
+		width: 67%;
 		font-size: 16px;
-		padding: 20px 20px 0 20px;
 	}
 
 	.hero-me p {
-		line-height: 15px;
+		text-indent: 0;
 		font-size: 12px;
 	}
 
 	.styled_button {
 		font-size: 14px;
+		padding: 6px 13px;
+	}
+	
+	.hero-page {
+    	margin-top: 70px;
 	}
 
-	.hero-page img {
-		margin: 90px 0;
+	.hero-page .page {
+		width: 100%;
 	}
 
-	.hero-page .rubic-purp {
-		max-width: 105px;
-		top: 0px;
-		left: 0px;
+	.hero-page .pen {
+		top: 43%;
 	}
 
-	.hero-page .rubic-white {
+	.hero .rubic-purp {
+		max-width: 100px;
+		top: 100px;
+	}
+
+	.hero .rubic-white {
 		max-width: 70px;
-		top: 300px;
-		right: 45px;
+		top: 62%;
+		right: 10%;
 	}
 
-	.typing {
-		top: 325px;
-		left: 95px;
-		font-size: 14px;
+	.github {
+		display: none;
 	}
+	
+	#fp-nav {
+		display: none;
+	}
+	/************* hero ends ************/
 
+	/*********** service starts ***********/
 	.what-can {
-		background: linear-gradient(90deg, rgb(129, 86, 252) 27%, white 27%);
-	}
-
-	.what-items {
-		margin: 15px 0 0 40px;
-	}
-
-	.what-items h2{
-		font-size: 1.5rem;
-	}
-
-	.single-icon {
-		margin-top: 0px;
+		background: linear-gradient(90deg, rgb(129, 86, 252) 28%, white 28%);
 	}
 
 	.counts {
-		padding: 38px;
+		padding: 25px;
 	}
 
-	.count-item {
-		margin-top: 0px;
+	.count-item p {
+		font-size: 30px;
 	}
 
-	.count-item h3{
-		font-size: 1rem;
+	.count-item h3 {
+		font-size: 20px;
 	}
 
-	.card_text h3{
-		font-size:24px;
+	.floating img {
+		width: 170px;
+		height: 155px;
+		top: 0px;
 	}
 
-	.card_text p{
+	.shadows img {
+		width: 135px;
+		height: 75px;
+		top: 250px;
+	}
+
+	.what-items {
+		margin: 20px 0 0 15px;
+	}
+
+	.what-items h2{
+		font-size: 28px;
+	}
+
+	.single-icon {
+		margin-top: 18px;
+	}
+
+	.single-icon h3 {
+		font-size: 18px;
+	}
+
+	.single-icon p {
 		font-size: 14px;
-		line-height: 20px;
 	}
 
-	.float img {
-		width: 180px;
-		height: 170px;
-		top: 20px;
+	.card_icon {
+		font-size: 20px;
+		margin-top: 3px;
 	}
 
-	.shadow img {
-		width: 160px;
-		height: 95px;
-		top: 260px;
+	.hire-me {
+		margin-top: 25px;
 	}
-	.modal-form{
-		width: 86%;
+	/*********** service ends ***********/
+
+	/*********** works starts ***********/
+	.works {
+		background: linear-gradient(60deg, white 64%,rgb(129, 86, 252) 64%);
+	}
+
+	.products-tabs {
+		width: 60%;
+	}
+
+	.product-name {
+		font-size: 24px;
+	}
+
+	.slick-prev {
+		left: 80px;
+	}
+
+	.slick-next {
+		right: 80px;
+	}
+	/************ works ends ************/
+
+	/*********** review starts ***********/
+	.reviews {
+		margin: 100px 0;
 	}
 
 	.reviews::before {
-		font-size: 50px;
+		font-size: 60px;
 	}
 
 	.reviews::after {
-		font-size: 50px;
-		bottom: 65px;
+		font-size: 60px;
+		bottom: 34%;
+	}
+	/************ review ends ************/
+
+	/********** contact starts ***********/
+	.modal-form {
+		width: 95%;
+		margin-top: 100px;
+	}
+	/*********** contact ends ************/
+
+	/******** project hero starts ********/
+	.parallax-items .ruler {
+		width: 35px;
 	}
 
+	.phero-text h4 {
+		padding-top: 50%;
+	}
+	/********* project hero ends *********/
+
+	/******** all projects starts ********/
+
+	.p-width{
+		width: 90%;
+		margin-top: 90px;
+	  }
+  
+	  .project-tabs h3{
+		  font-size: 26px;
+	  }
+  
+	  .project_icon i {
+		  font-size: 38px;
+	  }
+	/******** all projects starts ********/
+
+	/**********  allbum starts *********/
 	.album-ul {
-		margin-left: 2%;
+		margin-left: 0;
 	}
 
 	.album-items {
-		margin-left: 8%;
+		margin-left: 0;
+	}
+	/***********  allbum ends **********/
+
+	/********  skill-hero starts *******/
+	.skill-head {
+		margin: 50px 0;
+	}
+	/*********  skill-hero ends ********/
+
+	/*****  progress-long starts *****/
+	.skills-path {
+		width: 90%;
+	}
+	/******  progress-long ends ******/
+
+	/*******  education starts *******/
+	.timeline ul .point-one .time {
+		right: 27%;
 	}
 
-	.album-items .itemBox {
-		width: 270px;
-		height: 270px;
+	.timeline ul .point-two .time {
+		left: 19%;
 	}
-	
+
+	.timeline ul .point-three .time {
+		right: 27%;
+	}
+
+	.timeline ul .point-four .time {
+		left: 26%;
+	}
+	/*******  education starts *******/
+
+	/*********  video starts *********/
+	.video{
+		display: none;
+	  }
+	  /**********  video ends **********/
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	.hero-me {
-		margin-top: 0px;
+	/************* hero starts ************/
+	.hero {
+		background: linear-gradient(110deg, white 29%, rgb(129, 86, 252) 29%);
 	}
 
-    .hero-me h1 {
-		font-size: 20px;
+	.hero-me h1 {
+		width: 70%;
 	}
 
-	.hero-me p {
-		padding: 20px 0 20px 20px;
-		font-size: 15px;
-	}
-
-	.hero-page img {
+	.hero-page .page {
 		width: 95%;
 	}
 
-	.hero-page .pen {
-		width: 40%;
+	.hero .rubic-white {
+		max-width: 90px;
+		top: 66%;
+		right: 10%;
 	}
 
-	.hero-page .rubic-purp {
-		max-width: 125px;
-		top: 80px;
-	}	
-
-	.hero-page .rubic-white {
-		max-width: 80px;
-		top: 525px;
+	.hero .rubic-purp {
+		max-width: 140px;
+		top: 40px;
 	}
+	/************* hero ends ************/
 
-	.styled_button {
-		font-size: 16px;
-	}
-
-	.typing {
-		top: 420px;
-		left: 140px;
-		font-size: 14px;
-	}
-
+	/*********** service starts ***********/
 	.what-can {
 		background: linear-gradient(90deg, rgb(129, 86, 252) 27%, white 27%);
 	}
 
-	
-
-	.what-items {
-		margin: 15px 0 0 40px;
+	.counts {
+		padding: 25px;
 	}
 
-	.what-items h2{
-		font-size: 1.5rem;
-		margin-bottom: 25px;
+	.count-item p {
+		font-size: 34px;
+	}
+
+	.floating img {
+		width: 180px;
+		height: 165px;
+		top: 25px;
+	}
+
+	.shadows img {
+		width: 150px;
+		height: 90px;
+		top: 278px;
+	}
+
+	.what-items {
+		margin: 20px 0 0 20px;
 	}
 
 	.single-icon {
-		margin-top: 0px;
-	}
-	
-	.counts {
-		padding: 50px 38px 50px 38px;
-	}
-	
-
-	.count-item {
-		margin-top: 0px;
+		margin-top: 15px;
 	}
 
-	.count-item h3{
-		font-size: 1rem;
+	.single-icon h3 {
+		font-size: 22px;
 	}
 
-	.card_text h3{
-		font-size:24px;
+	.card_icon {
+		font-size: 24px;
 	}
 
-	.card_text p{
-		font-size: 14px;
-		line-height: 20px;
+	.hire-me {
+		margin-top: 25px;
+	}
+	/*********** service ends ***********/
+
+	/*********** works starts ***********/
+	.products-tabs {
+		margin-top: 50px;
 	}
 
-	.float img {
-		width: 180px;
-		height: 170px;
-		top: 20px;
+	.slick-prev {
+		left: 80px;
 	}
 
-	.shadow img {
-		width: 160px;
-		height: 95px;
-		top: 260px;
+	.slick-next {
+		right: 80px;
 	}
+	/************ works ends ************/
 
-	.modal-form {
-		width: 80%;
-		padding: 20px 30px;
-		margin-top: 45px;
+	/*********** review starts ***********/
+	.reviews {
+		margin: 75px 0;
 	}
 
 	.reviews::before {
-		font-size: 50px;
+		font-size: 60px;
 	}
 
 	.reviews::after {
-		font-size: 50px;
-		bottom: 65px;
+		font-size: 60px;
+		bottom: 30%;
+	}
+	/************ review ends ************/
+
+	/********** contact starts ***********/
+	.modal-form {
+		margin-top: 120px;
 	}
 
-	.album-items .itemBox {
-		width: 270px;
-		height: 270px;
+	.information-name, .information-email {
+		width: 85%;
+		height: 45px;
+		font-size: 16px;
 	}
+	/*********** contact ends ************/
+
+	/******** all projects starts ********/
+	.p-width {
+		margin-top: 90px;
+	}
+	/******** all projects starts ********/
+
+	/**********  allbum starts *********/
+	.album-items {
+		margin-left: 0;
+	}
+	/***********  allbum ends **********/
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
