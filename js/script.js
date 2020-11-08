@@ -3,7 +3,7 @@ $(window).load(function () {
     $("#loading").delay(100).fadeOut(500);
 });
 
-/* sticky header */
+/********* sticky header ********/
 $(window).scroll(function () {
     if ($(window).scrollTop() > 0) {
         $("header").addClass("sticky");
@@ -12,9 +12,8 @@ $(window).scroll(function () {
     }
 });
 
-
+/*********** wow js ************/
 $(document).ready(function () {
-    /* wow js */
     var wow = new WOW(
         {
             boxClass: 'wow',

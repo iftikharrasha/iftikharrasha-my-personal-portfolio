@@ -207,7 +207,7 @@ a:hover{
 }
   
 #fp-nav ul li .fp-tooltip {
-	top: -9px;
+	top: -5px;
 	color: #000;
 }
 /*********** fullpage ends ************/
@@ -497,7 +497,7 @@ a:hover{
 	transform: translateY(-50%) rotate(15deg);
 	z-index: 1;
 	right: 10%;
-    bottom: 40%;
+    bottom: 32%;
 }
 
 .figure {
@@ -558,6 +558,7 @@ blockquote {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
   }
 
   .modal-form {
@@ -614,7 +615,7 @@ blockquote {
 	border-radius: 0;
   }
 
-  .information-name input:focus, .information-email input:focus, .information-submit:focus {
+  .information-name input:focus, .information-email input:focus, .information-submit input:focus {
 	outline: none;
   }
   
@@ -670,7 +671,7 @@ blockquote {
 	width: 100%;
   }
   
-  .phero-text h4{
+  .phero-text h1{
 	padding-top: 40%;
 	font-size: 100px;
 	font-weight: 700;
@@ -680,7 +681,7 @@ blockquote {
 	position: absolute;
 	top: 30%;
 	left: 1%;
-	width: 50px;
+	width: 40px;
 	margin-top: 5%;
 	margin-left: 5%;
 	cursor: pointer;
@@ -733,6 +734,12 @@ blockquote {
 	color: #000;
   }
   
+  
+  .project-tabs h2 {
+	font-size: 28px;
+  }
+  
+  
   .project-tabs h4 {
 	font-size: 16px;
   }
@@ -780,6 +787,11 @@ blockquote {
 	font-size: 40px;
 	font-weight: 700;
   }
+
+  .album p {
+	color: white;
+	padding-top: 20px;
+  }
   
   .album-ul {
 	display: flex;
@@ -820,6 +832,10 @@ blockquote {
 	height: 100%;
 	object-fit: cover;
   }
+
+  .mfp-close:focus, .mfp-arrow:focus {
+    outline: none;
+  }
   /***********  allbum ends **********/
 
   /********  skill-hero starts *******/
@@ -837,6 +853,12 @@ blockquote {
 	  font-weight: 700;
 	  margin-bottom: 20px;
 	}
+
+	.skill-head h2{
+		font-size: 60px;
+		font-weight: 700;
+		margin-bottom: 20px;
+	  }
 	
 	.skill-head p{
 	  margin-bottom: 10px;
